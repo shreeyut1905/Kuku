@@ -35,12 +35,12 @@ Official run on the full input pack (50 episodes, 102.7 minutes of drama, 3,727 
 
 | | |
 |---|---|
-| Candidates found and judged | ⟦FREE_CANDIDATES⟧ (AI picks + cross-episode trailers + keyword-rules baseline), ⟦FREE_RANKED⟧ ranked after removing near-duplicates |
-| Cost | **$0** (GLM-4.7-Flash on Qubrid) · ≈⟦FREE_CALLS⟧ AI calls · ≈⟦FREE_TOKENS⟧ tokens |
-| Time | ≈⟦FREE_TIME⟧, because Qubrid's free tier serves one request at a time. A paid model with 8 parallel requests did the same show in **2.8–4.4 min** for **$0.10–0.65** |
+| Candidates found and judged | **155**: 122 AI picks + 3 cross-episode trailers + 30 keyword-rules picks; **149** ranked after removing near-duplicates |
+| Cost | **$0** (GLM-4.7-Flash on Qubrid) · 209 AI calls · 620k input + 68k output tokens |
+| Time | ≈1.8 h of model time, because Qubrid's free tier serves one request at a time. A paid model with 8 parallel requests did the same show in **2.8–4.4 min** for **$0.10–0.65** |
 | Hard rules | **0** clips outside 20–60 s, **0** cut mid-line, **0** timestamps written by the AI (all computed by code from the script) |
 | Moments found | The tool's candidates contained the independent reviewer's favourite moment in **48 of 50 episodes** (keyword baseline: 41/50) |
-| Ranking quality (blind review) | ⟦FREE_TOP10⟧ of the top 10 would be posted by blind reviewers, vs ⟦FREE_BOTTOM⟧ of the bottom of the list (tool score vs reviewer score: ρ = ⟦FREE_RHO⟧) |
+| Ranking quality (blind review) | Blind reviewers would post **8 of the top 10** and 70% of the top 30, but only 22% of the bottom 74 (tool score vs reviewer score: ρ = 0.53) |
 
 The ranked list itself quotes Kuku's confidential scripts, so it is not in this public repo. It is in the raw-outputs folder shared privately with the submission.
 
@@ -98,7 +98,7 @@ While the free model worked through 50 episodes, I built an **independent refere
 
 ### Step 7: A blind second opinion on every candidate
 All candidates were exported anonymously, shuffled, and reviewed by skeptical "ad-buyer" reviewers (Claude Haiku). They decided whether each clip passes the brief's three tests (hook in 3 s, cliffhanger, stands alone) and whether they would spend ad money on it. This showed two things:
-- **The ranking works.** Reviewers would post most of the top of the list and almost none of the bottom. Numbers are in [§5](#5-how-i-know-its-good-and-where-it-isnt).
+- **The ranking works.** Reviewers would post most of the top of the list and few from the bottom. Numbers are in [§5](#5-how-i-know-its-good-and-where-it-isnt).
 - **The weak spot is the opening.** Only about half of all candidates hook a stranger in the first 3 seconds, while 96% make sense on their own.
 
 ### Step 8: Testing stronger models (paid, $0.86 of a $4 budget)
@@ -155,15 +155,15 @@ I built a web app on the standard library. It lets you pick or upload a show, ch
 | **Parser robustness** (`tools/test_parser_variants.py`) | 8 of 8 reformatted variants parse to an identical timeline |
 | **Broken-model test** (`tools/test_malformed_replies.py`) | A run survives bare lists, wrong types, invented IDs, `Infinity`, prose around the JSON, and duplicated trailer moments |
 | **Recall vs independent reviewers** (`tools/compare_with_reviewers.py`) | Reviewer's best moment found among the tool's candidates: **48/50** (free model), 49/50 (DeepSeek), 47/50 (Qwen); keyword baseline 41/50 |
-| **Blind review of every candidate** (`tools/analyze_review_all.py`) | Share the reviewers would post, by the tool's rank: ⟦FREE_BUCKETS⟧ |
-| **Judge stability** (`tools/judge_stability.py`) | ⟦FREE_STABILITY⟧ |
+| **Blind review of every candidate** (`tools/analyze_review_all.py`) | Share the reviewers would post, by the tool's rank (free model): top 10 **8/10** · 11–30: 13/20 · 31–75: 20/45 · 76+: 16/74. Stronger paid models separate more sharply (top 10: 9/10 and 8/10; bottom: 8/70 and 4/67) |
+| **Judge stability** (`tools/judge_stability.py`) | I re-judged the free run's top 15 at a higher temperature to stress the judge. Scores moved **±2.1** (hook, cliffhanger) and ±1.2 (stands alone) on average, and the post/maybe/reject verdict changed for **9 of 15**. The cheap judge is noisy, so close ranks are ties. |
 
 **Where it picks badly** (from the reviews, not guesses)
 1. **Openings.** Only about half of the candidates hook in the first 3 seconds. The model often starts a few seconds early, on the lead-in. The ranking pushes the good ones up, but the pool is weak, and the re-cut experiment didn't fix it.
 2. **Cutting on the wrong side of the payoff.** Some clips end just *after* the answer (the ring is already found), and some end one beat *before* the twist lands.
 3. **It reads text, not video.** It can't see whether a slap lands or an actor sells a line.
 4. **The model's descriptions sometimes quote the wrong moment.** These are flagged automatically ("cliffhanger text quotes a line that is not at the cut").
-5. **Ties.** Clips ranked about 30–75 often score close to the top. Small rank differences aren't meaningful, which is why a human picks the final 3–5.
+5. **A noisy judge, so ranks near each other are ties.** Re-judging moved scores by about ±2 and flipped half the verdicts in the top 15, and clips ranked 30–75 often score close to the top. That's why a human picks the final 3–5. For production, average 2–3 judge votes or use a stronger `--judge-model` (DeepSeek's ranking matched the blind reviewers best, ρ = 0.79).
 6. **Stricter models refuse content.** Handled with `--fallback-model`, but worth knowing before choosing a model.
 
 ---
@@ -175,11 +175,11 @@ Same pipeline, same show; only `--model` changed:
 | | GLM-4.7-Flash (default) | Qwen3.5-Flash | DeepSeek-V4-Pro |
 |---|---|---|---|
 | Cost per 50-episode show | **$0** | $0.10 | $0.65 |
-| Time | ≈⟦FREE_TIME⟧ (1 request at a time) | **2.8 min** (8 parallel) | 4.4 min (8 parallel) |
+| Time | ≈1.8 h (1 request at a time) | **2.8 min** (8 parallel) | 4.4 min (8 parallel) |
 | Episodes refused by content filters | 0 | 4 → recovered by fallback | 1 → recovered |
 | Picks breaking the 20–60 s rule (fixed by code) | 46% | 43% | 26% |
-| Top 10 the blind reviewers would post | ⟦FREE_TOP10⟧ | 9/10 | 8/10 |
-| Tool score vs blind reviewer score (ρ) | ⟦FREE_RHO⟧ | 0.70 | 0.79 |
+| Top 10 the blind reviewers would post | 8/10 | 9/10 | 8/10 |
+| Tool score vs blind reviewer score (ρ) | 0.53 | 0.70 | 0.79 |
 
 **At Kuku's volume:** about 650k input and 70k output tokens per 50-episode show. That is $0 on the free model, about $0.10 on a flash-class model, and about $0.65 on a frontier open model, so a new show every week costs **single-digit dollars a year**. The real cost is editor time, and that drops from watching about 100 minutes to reviewing a 10-clip shortlist. For volume, use a paid model with `--workers 8` (minutes per show), a cheap model to find candidates plus a stronger `--judge-model`, a `--fallback-model` for refusals, and a `--max-cost` cap.
 

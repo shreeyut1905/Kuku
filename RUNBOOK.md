@@ -9,12 +9,14 @@ All commands run from the repo root on Python 3.9+, with no installs. `<SHOW>` m
 | Item | Status |
 |---|---|
 | Tool (CLI), web app, tests, README | ✅ done, in this repo |
-| Paid-model comparison runs (Qwen3.5-Flash, DeepSeek-V4-Pro) and their blind reviews | ✅ done (spent $0.86 of a $4 test budget) |
-| Independent per-episode picks, blind review of the free run's candidates | ✅ done (`eval/`, kept private) |
-| **Official free-model run on the full pack** (`outputs/full_run`) | ⏳ in progress at the time of writing (judging finished ≈120 of 155 clips). **When it finishes, do steps 2 → 6 → 8 → 9** |
-| README numbers marked ⟦…⟧ | ⏳ fill after step 8 |
-| 2-page solution PDF | ⏳ step 9 |
-| Submission (Drive upload, form, video) | ⏳ you: see `docs/SUBMISSION_CHECKLIST.md` |
+| Official free-model run on the full pack (`outputs/full_run`, 155 candidates → 149 ranked, $0) | ✅ done. Its original live log is kept as `raw/llm_calls_live_run.jsonl`; the reports were regenerated from cache with the final code (identical clips and ranking) |
+| Paid-model comparison runs (Qwen3.5-Flash, DeepSeek-V4-Pro) and their blind reviews | ✅ done ($0.86 of a $4 test budget) |
+| Evaluation: independent picks, blind review of every candidate, judge stability | ✅ done (`eval/`, kept private) |
+| README numbers | ✅ filled |
+| 2-page solution PDF | ✅ built locally as `docs/solution.pdf` (git-ignored because it quotes the scripts). **Edit it into your own words** (step 9 to rebuild) |
+| Submission (Drive upload of `outputs/full_run` + `eval/`, form, optional video) | ⏳ you: see `docs/SUBMISSION_CHECKLIST.md` |
+
+Re-running anything below is optional. Every step is reproducible with the commands given.
 
 ---
 
