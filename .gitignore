@@ -1,0 +1,21 @@
+# secrets
+.env
+
+# Kuku's confidential input pack and anything quoting it: share outputs privately (Drive), never publish
+input_pack/
+*.zip
+outputs/
+eval/
+.cache/
+
+# python
+__pycache__/
+*.pyc
+.DS_Store
+
+# the solution doc quotes the confidential scripts: submit it via the form, don't publish it
+docs/solution*.pdf
+docs/solution*.html
+
+# the assignment brief itself (Kuku's document): not ours to publish
+/Kuku*.pdf
