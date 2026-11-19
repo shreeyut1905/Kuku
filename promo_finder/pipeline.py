@@ -26,8 +26,25 @@ from .llm import LLM, LLMError
 from .screenplay import Episode, blocks_between, fmt_ts, render_blocks
 
 
+# Listeners receive every log line and progress event (the web UI registers one).
+LISTENERS: List = []
+
+
+def emit(event: Dict) -> None:
+    for fn in list(LISTENERS):
+        try:
+            fn(event)
+        except Exception:  # noqa: BLE001 - a broken listener must never break a run
+            pass
+
+
 def log(msg: str) -> None:
     print(time.strftime("%H:%M:%S"), msg, flush=True)
+    emit({"type": "log", "time": time.strftime("%H:%M:%S"), "msg": msg})
+
+
+def progress(phase: str, done: int = 0, total: int = 0) -> None:
+    emit({"type": "progress", "phase": phase, "done": done, "total": total})
 
 
 # ---------------------------------------------------------------- 1. series guide
@@ -439,6 +456,7 @@ def run(input_dir: str, out_dir: str, llm: Optional[LLM], *, per_episode: int = 
     by_num = {e.number: e for e in episodes}
     os.makedirs(os.path.join(out_dir, "raw"), exist_ok=True)
     parse_warnings = {e.number: e.warnings for e in episodes if e.warnings}
+    progress("parse", 1, 1)
     log(f"Parsed {len(episodes)} episodes, {sum(len(e.blocks) for e in episodes)} timed blocks, "
         f"{sum(e.duration for e in episodes) / 60:.1f} min of runtime. Parse warnings: {sum(len(v) for v in parse_warnings.values())}")
 
@@ -470,7 +488,9 @@ def run(input_dir: str, out_dir: str, llm: Optional[LLM], *, per_episode: int = 
         log("Rules-only mode (no AI): picking clips from hook/cliffhanger keyword signals")
         add_rules_picks(min(2, per_episode))
     else:
+        progress("guide", 0, 1)
         bible = build_bible(llm, title, episodes)
+        progress("guide", 1, 1)
         with open(os.path.join(out_dir, "raw", "series_guide.json"), "w", encoding="utf-8") as f:
             json.dump(bible, f, indent=2, ensure_ascii=False)
         log(f"Series guide: {bible.get('premise', '')[:120]}")
@@ -483,7 +503,9 @@ def run(input_dir: str, out_dir: str, llm: Optional[LLM], *, per_episode: int = 
         results: Dict[int, Dict] = {}
         with ThreadPoolExecutor(max_workers=max(1, workers)) as pool:
             futs = {pool.submit(mine_episode, llm, e, bible, story_so_far(e), title, per_episode): e.number for e in episodes}
+            progress("mine", 0, len(futs))
             for fu in as_completed(futs):
+                progress("mine", len(results) + 1, len(futs))
                 try:
                     results[futs[fu]] = fu.result()
                 except Exception as e:  # noqa: BLE001 - one bad episode must not kill the run
@@ -510,7 +532,9 @@ def run(input_dir: str, out_dir: str, llm: Optional[LLM], *, per_episode: int = 
                       f, indent=2, ensure_ascii=False)
 
         if trailers > 0 and len(episodes) > 1:
+            progress("trailers", 0, 1)
             tr, trailer_rec = build_trailers(llm, moments, bible, title, len(episodes), trailers)
+            progress("trailers", 1, 1)
             for n, p in enumerate(tr, start=1):
                 p.pid = f"T{n}"
                 promos.append(p)
@@ -526,8 +550,9 @@ def run(input_dir: str, out_dir: str, llm: Optional[LLM], *, per_episode: int = 
         targets = [p for p in promos if p.kind in ("single", "rules")]
         log(f"[recut] asking the model for a stronger opening on {len(targets)} clips")
         with ThreadPoolExecutor(max_workers=max(1, workers)) as pool:
-            for note in pool.map(lambda p: recut_hook(llm, p, by_num), targets):
+            for i, note in enumerate(pool.map(lambda p: recut_hook(llm, p, by_num), targets), start=1):
                 recut_count += bool(note)
+                progress("recut", i, len(targets))
         log(f"[recut] {recut_count} clips now start later, on a stronger first line")
 
     for p in promos:
@@ -541,12 +566,14 @@ def run(input_dir: str, out_dir: str, llm: Optional[LLM], *, per_episode: int = 
         with ThreadPoolExecutor(max_workers=max(1, workers)) as pool:
             futs = {pool.submit(judge_promo, judge_llm or llm, p, by_num, bible.get("genre", "")): p for p in promos}
             done = 0
+            progress("judge", 0, len(promos))
             for fu in as_completed(futs):
                 try:
                     futs[fu].judge = fu.result()
                 except Exception as e:  # noqa: BLE001
                     futs[fu].judge = {"error": f"{type(e).__name__}: {e}"}
                 done += 1
+                progress("judge", done, len(promos))
                 if done % 10 == 0 or done == len(promos):
                     log(f"[judge] {done}/{len(promos)}")
         for p in promos:
@@ -584,8 +611,10 @@ def run(input_dir: str, out_dir: str, llm: Optional[LLM], *, per_episode: int = 
     ranked, alternates = rank(promos)
     by_kind = Counter(p.kind for p in ranked)
     top10_kinds = Counter(p.kind for p in ranked[:10])
+    progress("rank", 0, 1)
     summary = {
         "show": title,
+        "input_dir": os.path.abspath(input_dir),
         "episodes": len(episodes),
         "runtime_minutes": round(sum(e.duration for e in episodes) / 60, 1),
         "mode": "rules-only" if llm is None else "llm",
@@ -612,5 +641,6 @@ def run(input_dir: str, out_dir: str, llm: Optional[LLM], *, per_episode: int = 
     }
     from .report import write_reports
     write_reports(out_dir, title, ranked, alternates, summary, by_num, bible)
+    progress("done", 1, 1)
     log(f"Done: {len(ranked)} ranked promos -> {out_dir}  ({summary['wall_clock_seconds']}s)")
     return summary

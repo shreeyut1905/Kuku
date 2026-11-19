@@ -1,0 +1,138 @@
+EPISODE NUMBER: Episode 1
+EPISODE LOGLINE: The maid at the funeral is accused of stealing the will by her stepsister, until the family lawyer reveals the will names the maid as the sole heiress.
+CONTINUITY NOTES: First episode. Mira has worked as a maid in the Castell house for ten years without knowing she is the late owner's daughter.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. CASTELL MANSION, GRAND HALL – NIGHT
+Scene start: 00:00.00
+Scene end: 00:45.50
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:03.00)
+Slow push-in on a black-draped portrait of old Victor Castell above a crowd of mourners.
+
+**VANESSA (Shrill, Accusing):**
+Start: (00:00.40) | End: (00:02.80)
+"Search her pockets. She stole Father's will."
+
+**CAMERA:**
+Start: (00:03.00) | End: (00:05.20)
+Close-up on Mira, a young maid in a grey uniform, frozen with a tray of glasses.
+
+**MIRA (Stunned):**
+Start: (00:03.40) | End: (00:04.90)
+"Miss Vanessa, I would never…"
+
+**ACTION:**
+Start: (00:05.20) | End: (00:07.60)
+Vanessa slaps the tray out of Mira's hands; glasses shatter across the marble floor.
+
+**SOUND FX:**
+Start: (00:05.40) | End: (00:06.40)
+Crash of breaking glass echoes through the silent hall.
+
+**CAMERA:**
+Start: (00:07.60) | End: (00:10.40)
+Mourners turn and whisper as Mira kneels among the shards.
+
+**VANESSA (Venomous):**
+Start: (00:08.00) | End: (00:10.20)
+"Ten years of cleaning our floors, and this is how you repay us?"
+
+**CAMERA:**
+Start: (00:10.40) | End: (00:13.00)
+Medium shot: Vanessa's mother, Lady Helena, watches with a thin smile.
+
+**LADY HELENA (Cold):**
+Start: (00:10.60) | End: (00:12.80)
+"Call the police. I want her out of this house tonight."
+
+**CAMERA:**
+Start: (00:13.00) | End: (00:16.00)
+Close-up on Mira's bleeding palm, then her eyes, filling with tears and anger.
+
+**MIRA (Trembling, Defiant):**
+Start: (00:13.40) | End: (00:15.80)
+"I have nothing of his. I only loved him like a father."
+
+**CAMERA:**
+Start: (00:16.00) | End: (00:19.50)
+The double doors open; an old lawyer, Mr. Hale, enters holding a sealed envelope.
+
+**MR. HALE (Grave):**
+Start: (00:16.60) | End: (00:19.20)
+"Nobody touches that girl until I have read the will."
+
+**CAMERA:**
+Start: (00:19.50) | End: (00:22.00)
+Vanessa steps forward, smiling confidently.
+
+**VANESSA (Smug):**
+Start: (00:19.80) | End: (00:21.80)
+"Read it. Everything goes to Mother and me."
+
+**CAMERA:**
+Start: (00:22.00) | End: (00:26.00)
+Insert: Mr. Hale breaks the wax seal and unfolds the will.
+
+**MR. HALE (Measured):**
+Start: (00:22.40) | End: (00:25.80)
+"I, Victor Castell, leave my house, my company and my name…"
+
+**CAMERA:**
+Start: (00:26.00) | End: (00:28.50)
+Close-up on Lady Helena, her smile fading.
+
+**MR. HALE (Slow, Deliberate):**
+Start: (00:26.20) | End: (00:28.40)
+"…to my daughter."
+
+**CAMERA:**
+Start: (00:28.50) | End: (00:31.00)
+Vanessa laughs, relieved, and turns to the mourners.
+
+**VANESSA (Triumphant):**
+Start: (00:28.70) | End: (00:30.80)
+"There. His daughter. Me."
+
+**CAMERA:**
+Start: (00:31.00) | End: (00:34.60)
+Extreme close-up on Mr. Hale, looking past Vanessa at the maid on the floor.
+
+**MR. HALE (Quiet, Final):**
+Start: (00:31.20) | End: (00:34.40)
+"His daughter, Mira Castell. The maid you just slapped."
+
+**SOUND FX:**
+Start: (00:34.00) | End: (00:36.00)
+A single low string note swells.
+
+**CAMERA:**
+Start: (00:34.60) | End: (00:38.00)
+Slow-motion wide shot: every head in the hall turns toward Mira.
+
+**ACTION:**
+Start: (00:35.00) | End: (00:38.00)
+Mira rises from the broken glass, blood on her palm, staring at Vanessa.
+
+**CAMERA:**
+Start: (00:38.00) | End: (00:41.00)
+Close-up on Vanessa as the colour drains from her face.
+
+**VANESSA (Whispering, Shaking):**
+Start: (00:38.40) | End: (00:40.60)
+"That's impossible…"
+
+**CAMERA:**
+Start: (00:41.00) | End: (00:44.00)
+Lady Helena quietly slips a small glass vial from her sleeve.
+
+**CAMERA:**
+Start: (00:44.00) | End: (00:45.50)
+Cut to black.
+
+--- SCRIPT END ---

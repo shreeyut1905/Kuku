@@ -1,0 +1,102 @@
+EPISODE NUMBER: Episode 3
+EPISODE LOGLINE: In a police cell, Mira learns her mother's death was not an accident, and Mr. Hale is found unconscious before he can testify.
+CONTINUITY NOTES: Mira was arrested at the end of Episode 2. Vanessa's 'proof' is a doctored video.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. POLICE STATION, HOLDING CELL – NIGHT
+Scene start: 00:00.00
+Scene end: 00:34.50
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:03.00)
+Mira sits on a steel bench, still in her maid's uniform, wrists cuffed.
+
+**VANESSA (Gloating, O.S.):**
+Start: (00:00.30) | End: (00:02.60)
+"Enjoy your new house, heiress."
+
+**CAMERA:**
+Start: (00:03.00) | End: (00:06.00)
+Vanessa leans on the bars, swinging a set of mansion keys.
+
+**MIRA (Steady):**
+Start: (00:03.30) | End: (00:05.80)
+"You're scared. People who win don't visit cells."
+
+**CAMERA:**
+Start: (00:06.00) | End: (00:09.00)
+Vanessa's grin falters; she leans closer.
+
+**VANESSA (Hissing):**
+Start: (00:06.20) | End: (00:08.80)
+"Your mother was a maid too. Ask Mother how she fell down the stairs."
+
+**CAMERA:**
+Start: (00:09.00) | End: (00:12.00)
+Extreme close-up on Mira; the words land like a blow.
+
+**MIRA (Barely a Whisper):**
+Start: (00:09.40) | End: (00:11.60)
+"My mother… was pushed?"
+
+**CAMERA:**
+Start: (00:12.00) | End: (00:15.00)
+Vanessa straightens up, smiling, and walks away.
+
+**CAMERA:**
+Start: (00:15.00) | End: (00:18.00)
+A detective unlocks the cell door and hands Mira a phone.
+
+**DETECTIVE (Urgent):**
+Start: (00:15.40) | End: (00:17.80)
+"Your lawyer was found unconscious in his car. Poisoned."
+
+**CAMERA:**
+Start: (00:18.00) | End: (00:21.00)
+Close-up on the phone screen: a voice message from Mr. Hale.
+
+**MR. HALE (Weak, V.O.):**
+Start: (00:18.30) | End: (00:20.80)
+"Mira… the proof is in your father's safe… the code is your birthday…"
+
+**SOUND FX:**
+Start: (00:20.80) | End: (00:21.60)
+The message cuts off with a crash.
+
+**CAMERA:**
+Start: (00:21.60) | End: (00:24.50)
+Mira grips the phone, her knuckles white.
+
+**MIRA (Cold Resolve):**
+Start: (00:21.80) | End: (00:24.20)
+"Then I'm going home tonight."
+
+**CAMERA:**
+Start: (00:24.50) | End: (00:27.00)
+The detective glances at the open cell door, then looks away.
+
+**DETECTIVE (Quiet):**
+Start: (00:24.80) | End: (00:26.80)
+"I didn't see anything."
+
+**CAMERA:**
+Start: (00:27.00) | End: (00:30.50)
+Mira walks out into the rain; a black car's headlights flick on behind her.
+
+**CAMERA:**
+Start: (00:30.50) | End: (00:33.00)
+Inside the car, Lady Helena watches, holding a phone to her ear.
+
+**LADY HELENA (Ice Cold):**
+Start: (00:30.80) | End: (00:32.80)
+"She's out. Make it look like an accident."
+
+**CAMERA:**
+Start: (00:33.00) | End: (00:34.50)
+Cut to black.
+
+--- SCRIPT END ---

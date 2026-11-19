@@ -15,21 +15,12 @@ import os
 import re
 import sys
 
-from .llm import LLM, LLMConfig, list_models, load_dotenv, lookup_price
+from .llm import LLMConfig, list_models, load_dotenv
 
 
 def _parse_eps(spec: str):
-    if not spec:
-        return None
-    out = set()
-    for part in spec.split(","):
-        part = part.strip()
-        if re.fullmatch(r"\d+-\d+", part):
-            a, b = map(int, part.split("-"))
-            out.update(range(a, b + 1))
-        elif part.isdigit():
-            out.add(int(part))
-    return sorted(out)
+    from .runner import parse_episode_spec
+    return parse_episode_spec(spec)
 
 
 def _slug(s: str) -> str:
@@ -70,7 +61,17 @@ def main(argv=None) -> int:
     p = sub.add_parser("parse", help="parse a show and print a summary (no AI)")
     p.add_argument("input")
 
+    w = sub.add_parser("serve", help="start the web UI (http://127.0.0.1:8765)")
+    w.add_argument("--host", default="127.0.0.1", help="use 0.0.0.0 only when hosting (then set PROMO_UI_REQUIRE_KEY=1)")
+    w.add_argument("--port", type=int, default=int(os.environ.get("PORT", "8765")))
+    w.add_argument("--open", action="store_true", help="open the browser")
+
     args = ap.parse_args(argv)
+
+    if args.cmd == "serve":
+        from .server import serve
+        serve(args.host, args.port, args.open)
+        return 0
 
     if args.cmd == "parse":
         from .screenplay import load_show, render_blocks
@@ -107,47 +108,16 @@ def main(argv=None) -> int:
     llm = None
     judge_llm = None
     if not args.no_llm:
-        cfg = LLMConfig.from_env(model=args.model, base_url=args.base_url.rstrip("/") if args.base_url else None,
-                                 workers=args.workers)
-        if args.thinking:
-            cfg.extra_body = dict(cfg.extra_body or {}, enable_thinking=True)
-            cfg.max_tokens = max(cfg.max_tokens, 6000)
-        if not cfg.api_key and "localhost" not in cfg.base_url and "127.0.0.1" not in cfg.base_url:
-            print("No API key: set QUBRID_API_KEY (or LLM_API_KEY) in .env, or use --no-llm.", file=sys.stderr)
+        from .runner import SetupError, build_llms, fresh_log_path
+        try:
+            llm, judge_llm = build_llms(
+                model=args.model, base_url=args.base_url, judge_model=args.judge_model,
+                fallback_model=args.fallback_model, workers=args.workers, max_cost=args.max_cost,
+                thinking=args.thinking, price_in=args.price_in, price_out=args.price_out,
+                log_path=fresh_log_path(out_dir))
+        except SetupError as e:
+            print(str(e), file=sys.stderr)
             return 2
-        if args.price_in is not None and args.price_out is not None:
-            cfg.price_in, cfg.price_out = args.price_in, args.price_out
-        else:
-            cfg.price_in, cfg.price_out = lookup_price(cfg.base_url, cfg.api_key, cfg.model)
-        if args.max_cost is not None:
-            if cfg.price_in is None or cfg.price_out is None:
-                print("--max-cost needs prices: pass --price-in/--price-out for this provider.", file=sys.stderr)
-                return 2
-            cfg.max_cost = args.max_cost
-        os.makedirs(os.path.join(out_dir, "raw"), exist_ok=True)
-        log_path = os.path.join(out_dir, "raw", "llm_calls.jsonl")
-        if os.path.exists(log_path):
-            os.remove(log_path)  # one log per run; cached answers are re-logged with cached=true
-        fallback = None
-        if args.fallback_model and args.fallback_model != cfg.model:
-            import copy
-            fcfg = copy.deepcopy(cfg)
-            fcfg.model = args.fallback_model
-            fcfg.price_in, fcfg.price_out = lookup_price(fcfg.base_url, fcfg.api_key, fcfg.model)
-            fcfg.workers = 1
-            fallback = LLM(fcfg, log_path=log_path)
-            print(f"Fallback model (used only on content-policy refusals): {fcfg.model}")
-        llm = LLM(cfg, log_path=log_path, fallback=fallback)
-        print(f"Model: {cfg.model} @ {cfg.base_url}  price/1M tokens: in={cfg.price_in} out={cfg.price_out}  workers={cfg.workers}")
-        if args.judge_model and args.judge_model != cfg.model:
-            import copy
-            jcfg = copy.deepcopy(cfg)
-            jcfg.model = args.judge_model
-            jcfg.price_in, jcfg.price_out = lookup_price(jcfg.base_url, jcfg.api_key, jcfg.model)
-            if args.max_cost is not None:
-                jcfg.max_cost = args.max_cost   # each model gets the cap; total spend is reported per model
-            judge_llm = LLM(jcfg, log_path=log_path, fallback=fallback)
-            print(f"Judge model: {jcfg.model}  price/1M tokens: in={jcfg.price_in} out={jcfg.price_out}")
     summary = run(args.input, out_dir, llm, per_episode=args.per_episode, trailers=args.trailers,
                   episodes_filter=_parse_eps(args.episodes), judge=not args.no_judge,
                   workers=(llm.cfg.workers if llm else 1), rules_pool=args.rules_pool, judge_llm=judge_llm,

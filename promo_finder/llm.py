@@ -110,6 +110,7 @@ class LLM:
         self.cfg = cfg
         self.log_path = log_path
         self.fallback = fallback          # used only when this model refuses (content policy / moderation)
+        self.cancel_event = threading.Event()   # set by the web UI's Cancel button
         self.refusals = 0
         self.fallback_used = 0
         self._lock = threading.Lock()
@@ -153,6 +154,8 @@ class LLM:
             self._log(tag, messages, rec, cached=True)
             return rec["content"]
 
+        if self.cancel_event.is_set():
+            raise LLMError("run cancelled by the user")
         if self.cfg.max_cost is not None and self.spent() >= self.cfg.max_cost:
             raise LLMError(f"budget cap reached (${self.spent():.4f} >= ${self.cfg.max_cost:.2f}); no more live calls")
         body = {

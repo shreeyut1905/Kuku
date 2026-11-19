@@ -1,0 +1,106 @@
+EPISODE NUMBER: Episode 2
+EPISODE LOGLINE: Mira's first night as heiress: Lady Helena offers a poisoned toast, and Mira must decide whether to drink in front of the board of directors.
+CONTINUITY NOTES: Continues directly from Episode 1. Mr. Hale suspects Helena; Mira does not know about the vial.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. CASTELL MANSION, DINING ROOM – NIGHT
+Scene start: 00:00.00
+Scene end: 00:39.50
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:03.20)
+A long dinner table; board members in black suits fall silent as Mira enters in her grey uniform.
+
+**BOARD MEMBER (Sneering):**
+Start: (00:00.50) | End: (00:03.00)
+"A maid running a billion-dollar company? Absurd."
+
+**CAMERA:**
+Start: (00:03.20) | End: (00:06.00)
+Close-up on Mira, chin raised.
+
+**MIRA (Calm, Steely):**
+Start: (00:03.50) | End: (00:05.80)
+"Absurd is a man who never read his own contracts, Mr. Price."
+
+**CAMERA:**
+Start: (00:06.00) | End: (00:09.00)
+The board members exchange stunned looks; one chuckles nervously.
+
+**CAMERA:**
+Start: (00:09.00) | End: (00:12.50)
+Lady Helena rises with two glasses of red wine, all warmth.
+
+**LADY HELENA (Sweet, False):**
+Start: (00:09.40) | End: (00:12.20)
+"Let's toast the new owner. No hard feelings, darling."
+
+**CAMERA:**
+Start: (00:12.50) | End: (00:15.00)
+Insert: a drop of clear liquid in one glass catches the candlelight.
+
+**CAMERA:**
+Start: (00:15.00) | End: (00:18.20)
+Mr. Hale, at the end of the table, freezes, staring at the glass.
+
+**MR. HALE (Under His Breath):**
+Start: (00:15.40) | End: (00:17.60)
+"Mira… don't."
+
+**CAMERA:**
+Start: (00:18.20) | End: (00:21.00)
+Mira takes the glass, looks Helena in the eye.
+
+**MIRA (Quiet):**
+Start: (00:18.40) | End: (00:20.80)
+"You poured this yourself?"
+
+**LADY HELENA (Smiling):**
+Start: (00:21.00) | End: (00:23.00)
+"With my own hands."
+
+**CAMERA:**
+Start: (00:23.00) | End: (00:26.50)
+Mira slowly swaps her glass with Helena's on the silver tray.
+
+**MIRA (Soft, Dangerous):**
+Start: (00:23.40) | End: (00:26.20)
+"Then you drink first."
+
+**CAMERA:**
+Start: (00:26.50) | End: (00:29.00)
+Close-up on Helena; the smile cracks.
+
+**SOUND FX:**
+Start: (00:27.00) | End: (00:28.00)
+A chair scrapes; the room holds its breath.
+
+**CAMERA:**
+Start: (00:29.00) | End: (00:32.00)
+Vanessa bursts through the doors, phone in hand.
+
+**VANESSA (Breathless, Triumphant):**
+Start: (00:29.30) | End: (00:31.80)
+"Stop! I have proof she forged the will!"
+
+**CAMERA:**
+Start: (00:32.00) | End: (00:35.00)
+Two police officers step in behind Vanessa.
+
+**POLICE OFFICER (Firm):**
+Start: (00:32.40) | End: (00:34.80)
+"Mira Castell, you need to come with us."
+
+**CAMERA:**
+Start: (00:35.00) | End: (00:38.00)
+Mira looks from the officers to the untouched poisoned glass in Helena's hand.
+
+**CAMERA:**
+Start: (00:38.00) | End: (00:39.50)
+Cut to black.
+
+--- SCRIPT END ---

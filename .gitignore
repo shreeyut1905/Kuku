@@ -19,3 +19,6 @@ docs/solution*.html
 
 # the assignment brief itself (Kuku's document): not ours to publish
 /Kuku*.pdf
+
+# scripts uploaded through the web UI (confidential, like input_pack/)
+uploads/
