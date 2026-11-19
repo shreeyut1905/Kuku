@@ -10,7 +10,7 @@ python3 -m promo_finder run "input_pack/<show folder>"          # same thing fro
 python3 -m promo_finder run examples/demo_show --no-llm         # try it now on the included demo show, no API key
 ```
 
-Plain Python 3.9+ standard library: **nothing to install**. The default model is the **cheapest model on Qubrid AI (GLM-4.7-Flash, $0)**, and any OpenAI-compatible model can be swapped in.
+Plain Python 3.9+ standard library: **nothing to install**. Every run, check and evaluation step, with exact commands, is in **[RUNBOOK.md](RUNBOOK.md)**. The default model is the **cheapest model on Qubrid AI (GLM-4.7-Flash, $0)**, and any OpenAI-compatible model can be swapped in.
 
 ---
 
@@ -266,7 +266,9 @@ promo_finder/
   server.py       web app backend (standard library http.server)
   web/index.html  web app frontend (single file, no build step)
   __main__.py     CLI: run · serve · parse · models
-tools/            audits, robustness tests, evaluation scripts (all offline except judge_stability)
+tools/            audits, robustness tests, evaluation scripts (all offline except judge_stability);
+                  review_prompts.md = exact instructions given to the independent AI reviewers
+RUNBOOK.md        how to run every step (main run, web app, checks, evaluations, PDF), and what's pending
 examples/demo_show/  a short ORIGINAL 3-episode demo show in the same format (safe to share)
 docs/             submission checklist, walkthrough-video talking points
 ```
