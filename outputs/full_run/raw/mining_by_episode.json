@@ -1,0 +1,3405 @@
+[
+  {
+    "episode": 1,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 2 \"The Cruel Truth\" (B045->B052): too short (13.0s, need at least 20s) -> auto-extended by code: model picked 13.0s, moved the start",
+      "Promo 3 \"The Father's Silence\" (B055->B062): too short (11.8s, need at least 20s) -> auto-extended by code: model picked 11.8s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "The Wedding Betrayal",
+          "start_block": "B006",
+          "end_block": "B028",
+          "hook": "Juliana stops midway down the aisle, confronted by a haughty matriarch stepping into the foreground.",
+          "cliffhanger": "Lady in Gold Gown beaming with cruel triumph: 'Because he is marrying me.'",
+          "why": "The immediate visual of the groom holding another woman's hand combined with the villain's gloating line creates instant outrage and curiosity about the bride's fate.",
+          "context_gap": "A stranger would not know who the Lady in Gold Gown is or why the groom abandoned the bride."
+        },
+        {
+          "title": "The Cruel Truth",
+          "start_block": "B045",
+          "end_block": "B052",
+          "hook": "Lady in Gold Gown smiling condescendingly: 'People change their minds, sister.'",
+          "cliffhanger": "Lady in Gold Gown: 'Long enough to know he was never going to marry you.'",
+          "why": "The sister's admission that the betrayal was planned and long-standing maximizes the emotional impact and establishes the villain's depth.",
+          "context_gap": "A stranger would not understand the relationship between the women or the full scope of the conspiracy."
+        },
+        {
+          "title": "The Father's Silence",
+          "start_block": "B055",
+          "end_block": "B062",
+          "hook": "Juliana drops to her knees beside her seated father, pleading with him.",
+          "cliffhanger": "Father Thomas stares blankly forward, refusing to offer a single word or look.",
+          "why": "The visual of a daughter begging her own father for help while he refuses to acknowledge her creates a powerful sense of isolation and despair.",
+          "context_gap": "A stranger would not know the father's name or the specific reason for his betrayal."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "Juliana stops midway down the aisle, confronted by a haughty matriarch stepping into the foreground."
+        },
+        {
+          "start_block": "B027",
+          "end_block": "B029",
+          "kind": "reveal",
+          "description": "Lady in Gold Gown: 'Because he is marrying me.' Juliana gasps in shock."
+        },
+        {
+          "start_block": "B041",
+          "end_block": "B043",
+          "kind": "cliffhanger",
+          "description": "Gerald: 'I changed my mind.' Juliana: 'You swore you loved me!'"
+        },
+        {
+          "start_block": "B075",
+          "end_block": "B077",
+          "kind": "cliffhanger",
+          "description": "Lady in Gold Gown: 'You are the daughter people tolerate because they have to.' Juliana absorbs the venomous words."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 2,
+    "proposed_promos": 3,
+    "proposed_moments": 2,
+    "length_fixes_by_code": [
+      "Promo 2 \"The Sister's Cruelty\" (B033->B047): too short (18.4s, need at least 20s) -> auto-extended by code: model picked 18.4s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Betrayal at the Altar",
+          "start_block": "B001",
+          "end_block": "B026",
+          "hook": "Gerald coldly rejects Juliana at the altar, calling her plain and beneath him.",
+          "cliffhanger": "Juliana turns to her father for help, but he coldly tells her to accept the humiliation.",
+          "why": "The immediate public rejection and the father's lack of support create instant outrage and sympathy.",
+          "context_gap": "The viewer doesn't know why Clarissa is there or that she is Juliana's sister."
+        },
+        {
+          "title": "The Sister's Cruelty",
+          "start_block": "B033",
+          "end_block": "B047",
+          "hook": "Clarissa mocks Juliana, calling her a kitchen maid and insulting her mother's memory.",
+          "cliffhanger": "A matriarch steps into the aisle to scold Juliana for looking wounded.",
+          "why": "Clarissa's vicious verbal attacks and the arrival of the Dowager Duchess heighten the tension.",
+          "context_gap": "The viewer doesn't know who the Dowager Duchess is or if she is an ally."
+        },
+        {
+          "title": "Juliana's Defiance",
+          "start_block": "B054",
+          "end_block": "B074",
+          "hook": "Juliana transforms from a broken woman to a regal figure, accusing Gerald of having no honor.",
+          "cliffhanger": "Juliana declares she will not leave the chapel ashamed, as the music swells.",
+          "why": "The character arc from victim to powerful speaker provides a satisfying emotional climax.",
+          "context_gap": "The viewer doesn't know what Juliana plans to do next or who she will marry."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B002",
+          "end_block": "B010",
+          "kind": "hook",
+          "description": "Gerald coldly rejects Juliana, calling her plain, silent, and beneath him while Clarissa smiles."
+        },
+        {
+          "start_block": "B067",
+          "end_block": "B074",
+          "kind": "cliffhanger",
+          "description": "Juliana delivers a scathing indictment of Gerald's honor, declaring she will not be ashamed."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 3,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 2 \"The Savior Arrives\" (B056->B072): too short (19.5s, need at least 20s) -> auto-extended by code: model picked 19.5s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Betrayal at the Altar",
+          "start_block": "B002",
+          "end_block": "B047",
+          "hook": "Lady in Gold mocks Juliana for clinging to her mother's locket, calling her unworthy.",
+          "cliffhanger": "The Noble Matriarch orders the guards to remove Juliana from her own mother's church.",
+          "why": "It establishes the villainy of the family and the immediate physical threat to the heroine.",
+          "context_gap": "A viewer would not know that the Noble Matriarch is Juliana's own mother."
+        },
+        {
+          "title": "The Savior Arrives",
+          "start_block": "B056",
+          "end_block": "B072",
+          "hook": "A scarred stranger steps into the cathedral aisle and orders the guards to release Juliana.",
+          "cliffhanger": "He effortlessly blocks a guard's strike and drops him to the floor with a bone-rattling punch.",
+          "why": "The visual of the stranger overpowering the guards creates instant action and intrigue.",
+          "context_gap": "A viewer would not know the stranger's identity or his connection to the Duke."
+        },
+        {
+          "title": "The Unexpected Proposal",
+          "start_block": "B096",
+          "end_block": "B117",
+          "hook": "The stranger offers Juliana a silver ring, stating he wants to give it back to her.",
+          "cliffhanger": "He drops to one knee and solemnly asks, 'Lady Juliana... accept my hand.'",
+          "why": "It is a shocking, high-stakes romantic gesture that recontextualizes the stranger as a hero.",
+          "context_gap": "A viewer would not know the stranger is the exiled Duke, Alexander."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "cliffhanger",
+          "description": "The Noble Matriarch coldly tells Juliana she has humiliated the family enough and must leave."
+        },
+        {
+          "start_block": "B059",
+          "end_block": "B062",
+          "kind": "hook",
+          "description": "The Bearded Stranger confronts the Noble Matriarch, demanding she let go of Juliana."
+        },
+        {
+          "start_block": "B071",
+          "end_block": "B074",
+          "kind": "reveal",
+          "description": "The Bearded Stranger drops a royal guard with a single punch, shocking Gerald and the congregation."
+        },
+        {
+          "start_block": "B096",
+          "end_block": "B099",
+          "kind": "hook",
+          "description": "The Bearded Stranger pulls a silver ring from his pocket and offers it to Juliana."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 4,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Betrayal & Proposal\" (B004->B054): too long (71.6s, max 60s) -> auto-trimmed by code: model picked 71.6s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Betrayal & Proposal",
+          "start_block": "B004",
+          "end_block": "B054",
+          "hook": "Gerald sneers that Juliana has found a man as worthless as everyone thinks, while Clarissa laughs cruelly.",
+          "cliffhanger": "Juliana turns to the kneeling stranger and accepts his proposal, choosing exile over her family's cruelty.",
+          "why": "It establishes the villainy of the family and the mystery of the stranger in one explosive sequence, ending on a high-stakes decision.",
+          "context_gap": "A stranger would not know the stranger is the Duke or that Juliana is leaving her family forever."
+        },
+        {
+          "title": "Wedding & Disownment",
+          "start_block": "B056",
+          "end_block": "B094",
+          "hook": "The Priest hesitantly pronounces them husband and wife, and Gerald lunges forward shouting that she has thrown herself away.",
+          "cliffhanger": "Juliana stands tall before Gerald and declares she would rather choose her own life than beg for his.",
+          "why": "It delivers the core emotional payoff of the episode (the wedding) immediately followed by the ultimate conflict (the family's rage).",
+          "context_gap": "A stranger would not know Gerald is the ex-fiancé or that Juliana is now married to the stranger."
+        },
+        {
+          "title": "Walk Into The Light",
+          "start_block": "B096",
+          "end_block": "B110",
+          "hook": "Lady Ashcroft screams that Juliana is disowned and orders the stranger not to bring him anywhere near Ashcroft Manor.",
+          "cliffhanger": "Juliana and the warrior walk hand-in-hand through the massive oak doors into the bright sunlight, turning their backs on the ruined wedding.",
+          "why": "It provides a powerful visual of the new life Juliana is choosing and the definitive end of her old life.",
+          "context_gap": "A stranger would not know the warrior is her new husband or that they are leaving the church."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B004",
+          "end_block": "B008",
+          "kind": "hook",
+          "description": "Gerald mocks Juliana for accepting a ring from a penniless stranger, while Clarissa laughs."
+        },
+        {
+          "start_block": "B029",
+          "end_block": "B031",
+          "kind": "reveal",
+          "description": "The stranger looks past Gerald and declares Juliana is a woman betrayed, not a woman who deserves to be discarded."
+        },
+        {
+          "start_block": "B056",
+          "end_block": "B058",
+          "kind": "cliffhanger",
+          "description": "The Priest begins to pronounce them husband and wife as the stranger rises to his feet."
+        },
+        {
+          "start_block": "B082",
+          "end_block": "B084",
+          "kind": "cliffhanger",
+          "description": "The Priest raises his hands to pronounce them husband and wife."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 5,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Dad Disowns Daughter",
+          "start_block": "B012",
+          "end_block": "B024",
+          "hook": "Lord Ashcroft: 'You leave as no daughter of mine.' Lady Ashcroft: 'Enough sentiment.'",
+          "cliffhanger": "Lady Ashcroft steps forward with a smirk of malicious authority.",
+          "why": "The father's cruel rejection and the stepmother's gleeful cruelty set up a high-stakes family conflict.",
+          "context_gap": "A stranger won't know Juliana just married a stranger to escape this family."
+        },
+        {
+          "title": "Ledger Slapped in Mud",
+          "start_block": "B024",
+          "end_block": "B047",
+          "hook": "Lady Ashcroft: 'Then you should have guarded it better.' *Slap of book into mud*",
+          "cliffhanger": "Mysterious Bearded Man: 'They dirtied it. That is not the same thing.'",
+          "why": "The violent destruction of the heirloom book and the husband's calm defense create instant tension.",
+          "context_gap": "A stranger won't know the book is the late mother's legacy or that the husband is a scarred duke."
+        },
+        {
+          "title": "Beggar's Wife",
+          "start_block": "B047",
+          "end_block": "B061",
+          "hook": "Mysterious Bearded Man: 'A noblewoman reduced to a beggar's wife!'",
+          "cliffhanger": "Mysterious Bearded Man: 'Come.' *They walk away into the rain*",
+          "why": "Gerald's cruel insult and the husband's lethal warning lead to a powerful exit moment.",
+          "context_gap": "A stranger won't know Gerald is the ex-fiancé who abandoned Juliana at the altar."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B012",
+          "end_block": "B014",
+          "kind": "cliffhanger",
+          "description": "Lord Ashcroft declares Juliana is dead to the family and revokes her dowry and inheritance."
+        },
+        {
+          "start_block": "B028",
+          "end_block": "B032",
+          "kind": "cliffhanger",
+          "description": "Lady Ashcroft snatches Juliana's mother's ledger and violently flings it into the mud."
+        },
+        {
+          "start_block": "B038",
+          "end_block": "B042",
+          "kind": "hook",
+          "description": "Juliana drops to her knees in the mud, reaching for her fallen mother's book."
+        },
+        {
+          "start_block": "B058",
+          "end_block": "B060",
+          "kind": "cliffhanger",
+          "description": "The Mysterious Bearded Man threatens Gerald: 'Choose your next words carefully.'"
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 6,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 2 \"A Clean Slate\" (B057->B063): too short (10.2s, need at least 20s) -> auto-extended by code: model picked 10.2s, moved the end",
+      "Promo 3 \"A Warm Hearth\" (B069->B083): too short (18.4s, need at least 20s) -> auto-extended by code: model picked 18.4s, moved the end"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "A Humble Cottage",
+          "start_block": "B021",
+          "end_block": "B047",
+          "hook": "A wide shot reveals a secluded, rustic stone cottage emerging from the dark woods.",
+          "cliffhanger": "Juliana looks out the rain-streaked window into the quiet forest and says, 'It is quiet.'",
+          "why": "The stark contrast between the ruined wedding dress and the peaceful cottage creates immediate intrigue about their new life.",
+          "context_gap": "A stranger would not know that this is the couple's first night as husband and wife, nor that they have just been disowned."
+        },
+        {
+          "title": "A Clean Slate",
+          "start_block": "B057",
+          "end_block": "B063",
+          "hook": "Juliana grabs a rag and begins briskly scrubbing the damp surface of the table.",
+          "cliffhanger": "Juliana's voice catches with raw, suppressed emotion as she scrubs.",
+          "why": "The physical act of cleaning symbolizes her attempt to wash away her trauma, while the emotional breakdown creates a vulnerable, empathetic hook.",
+          "context_gap": "A stranger would not know that she is scrubbing the table to distract herself from the trauma of being disowned and humiliated."
+        },
+        {
+          "title": "A Warm Hearth",
+          "start_block": "B069",
+          "end_block": "B083",
+          "hook": "The Mysterious Bearded Man carries a heavy wooden log across the room and places it onto the iron grate in the hearth.",
+          "cliffhanger": "Juliana kneels on the stone floor before the blazing hearth, wrapping her dark cloak around her shoulders.",
+          "why": "The visual of the man providing warmth and shelter in a cold, stormy night establishes him as a protector and sets a romantic, cozy tone.",
+          "context_gap": "A stranger would not know that the cottage is their first home together, nor that they have just been cast out by her cruel family."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B023",
+          "end_block": "B025",
+          "kind": "hook",
+          "description": "Juliana and the Mysterious Bearded Man arrive at the cottage, and she asks, 'That is it?'"
+        },
+        {
+          "start_block": "B029",
+          "end_block": "B031",
+          "kind": "cliffhanger",
+          "description": "Juliana marches toward the cottage door, declaring, 'At least no one there will be waiting to humiliate me.'"
+        },
+        {
+          "start_block": "B037",
+          "end_block": "B040",
+          "kind": "reveal",
+          "description": "The Mysterious Bearded Man stands in the dim light and apologizes, 'I am sorry.'"
+        },
+        {
+          "start_block": "B054",
+          "end_block": "B056",
+          "kind": "cliffhanger",
+          "description": "Juliana meets his gaze and says, 'I am.'"
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 7,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Mocked by Ex-Fiancé",
+          "start_block": "B009",
+          "end_block": "B032",
+          "hook": "An aristocratic woman sneeringly asks if this is where Juliana lives now, while Gerald calls her a beggar.",
+          "cliffhanger": "Gerald lunges forward, threatening to make her husband disappear.",
+          "why": "It establishes the villainy of the ex-fiancé and the threat to Juliana immediately, setting up the need for the husband's rescue.",
+          "context_gap": "A stranger won't know Juliana is the new Duchess or that the 'beggar' is her powerful husband."
+        },
+        {
+          "title": "The Husband's Return",
+          "start_block": "B034",
+          "end_block": "B047",
+          "hook": "A dark, shadowed figure steps out of the mist to confront Gerald and his companion.",
+          "cliffhanger": "Gerald turns to flee, terrified, and tells his companion they are leaving.",
+          "why": "It delivers the classic 'hero arrives' beat with high tension, showing the husband's dominance without him speaking a word.",
+          "context_gap": "The viewer doesn't know the husband's identity or that he is the Duke."
+        },
+        {
+          "title": "Silent Protection",
+          "start_block": "B047",
+          "end_block": "B058",
+          "hook": "Gerald and the woman scramble back into their carriage in a panic as the husband approaches.",
+          "cliffhanger": "Juliana turns to her husband, impressed that he didn't need to say a word to scare them off.",
+          "why": "It resolves the immediate conflict with a satisfying 'bad guys run away' beat and highlights the couple's bond.",
+          "context_gap": "The viewer doesn't know the husband's name or the backstory of their marriage."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "Juliana lifts her chin and declares she remains a lady despite her soiled hands."
+        },
+        {
+          "start_block": "B028",
+          "end_block": "B030",
+          "kind": "cliffhanger",
+          "description": "Juliana dismisses Gerald with utter contempt, commanding him to leave."
+        },
+        {
+          "start_block": "B041",
+          "end_block": "B043",
+          "kind": "reveal",
+          "description": "The Scarred Bearded Man towers menacingly over Gerald, freezing him with fear."
+        },
+        {
+          "start_block": "B056",
+          "end_block": "B058",
+          "kind": "emotional",
+          "description": "The husband looks down at Juliana with quiet affection after saving her."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 8,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"He Knows More Than He Lets On\" (B011->B021): too short (13.8s, need at least 20s) -> auto-extended by code: model picked 13.8s, moved the start",
+      "Promo 2 \"I Could Trim Them For You\" (B025->B035): too short (14.2s, need at least 20s) -> auto-extended by code: model picked 14.2s, moved the start",
+      "Promo 3 \"Let Them Grow\" (B027->B037): too short (13.0s, need at least 20s) -> auto-extended by code: model picked 13.0s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "He Knows More Than He Lets On",
+          "start_block": "B011",
+          "end_block": "B021",
+          "hook": "Juliana looks up in surprise at Alexander, recognizing the white yarrow flowers he brought.",
+          "cliffhanger": "Alexander offers a knowing half-smile, saying, 'Enough to survive.'",
+          "why": "It establishes the stoic Duke's hidden competence and creates instant romantic tension.",
+          "context_gap": "A stranger wouldn't know he is a scarred, exiled Duke or that he is protecting her from her family."
+        },
+        {
+          "title": "I Could Trim Them For You",
+          "start_block": "B025",
+          "end_block": "B035",
+          "hook": "Juliana rises to stand close to Alexander, reaching affectionately toward his temple.",
+          "cliffhanger": "Juliana smiles with playful warmth, asking, 'You prefer looking like a forest hermit?'",
+          "why": "It highlights the emotional intimacy and the contrast between her noble upbringing and their rustic life.",
+          "context_gap": "A stranger wouldn't know that Alexander is a mysterious, scarred Duke or that Juliana was just humiliated by her family."
+        },
+        {
+          "title": "Let Them Grow",
+          "start_block": "B027",
+          "end_block": "B037",
+          "hook": "Alexander catches Juliana's wrist in midair, looking down at her with a firm gaze.",
+          "cliffhanger": "Alexander lowers her hand, saying softly, 'It has advantages.'",
+          "why": "The physical touch and the mysterious line create a compelling moment of dominance and intrigue.",
+          "context_gap": "A stranger wouldn't know that Juliana is a betrayed noblewoman or that Alexander is a dangerous, scarred Duke."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "Alexander, bathed in warm hearth embers, offers a subtle, knowing half-smile."
+        },
+        {
+          "start_block": "B027",
+          "end_block": "B029",
+          "kind": "cliffhanger",
+          "description": "Alexander firmly catches Juliana's wrist in midair, his gaze locked onto hers."
+        },
+        {
+          "start_block": "B047",
+          "end_block": "B049",
+          "kind": "reveal",
+          "description": "Alexander points to a botanical illustration, explaining how crushed leaves ease swelling."
+        },
+        {
+          "start_block": "B051",
+          "end_block": "B053",
+          "kind": "emotional",
+          "description": "Juliana looks across at Alexander's battle-marked features with empathy, asking if his scars were from the war."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 9,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Child's Life Matters\" (B058->B065): too short (9.0s, need at least 20s) -> auto-extended by code: model picked 9.0s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Child's Life Matters",
+          "start_block": "B058",
+          "end_block": "B065",
+          "hook": "Alexander warns Juliana that gossip is dangerous.",
+          "cliffhanger": "Juliana defiantly vows to face the danger together.",
+          "why": "It establishes a high-stakes conflict where the couple must unite against an external threat, creating immediate emotional investment.",
+          "context_gap": "A stranger would not know that Alexander is a mysterious, exiled Duke or that Juliana is a betrayed noblewoman."
+        },
+        {
+          "title": "The Scar Reveal",
+          "start_block": "B066",
+          "end_block": "B085",
+          "hook": "A rumor spreads that a war veteran resembles the late Duke.",
+          "cliffhanger": "The Blond Nobleman dismisses the rumor, but his expression freezes into sudden alarm.",
+          "why": "It introduces a shocking secret identity that threatens the protagonist's safety and hints at a massive conspiracy.",
+          "context_gap": "A stranger would not know that the 'Blond Nobleman' is a villain plotting against Alexander or that Alexander is the missing Duke."
+        },
+        {
+          "title": "The Cure Ignites Danger",
+          "start_block": "B030",
+          "end_block": "B057",
+          "hook": "Juliana urgently asks Alexander for hot water to save a dying child.",
+          "cliffhanger": "The grateful mother vows to tell the village about Juliana's miraculous cure.",
+          "why": "It highlights Juliana's competence and compassion, setting up a ticking clock where her actions will expose her to her enemies.",
+          "context_gap": "A stranger would not know that Juliana's success will be used to track her down by the villains."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B003",
+          "end_block": "B009",
+          "kind": "hook",
+          "description": "Frantic pounding on the door interrupts Juliana's work. A soaked peasant mother begs for help, claiming her child is burning with fever."
+        },
+        {
+          "start_block": "B021",
+          "end_block": "B024",
+          "kind": "reveal",
+          "description": "Juliana reads from her mother's grimoire, identifying 'Feverfew' and 'Chamomile' as the cure."
+        },
+        {
+          "start_block": "B046",
+          "end_block": "B050",
+          "kind": "cliffhanger",
+          "description": "The fever breaks and the mother looks up at Juliana with overwhelming gratitude, whispering, 'You saved him.'"
+        },
+        {
+          "start_block": "B079",
+          "end_block": "B082",
+          "kind": "cliffhanger",
+          "description": "The Former Groom reveals that the rumored man has the same scar the Duke carried after the war."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 10,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 2 \"He's Only A Scratch\" (B020->B028): too short (18.0s, need at least 20s) -> auto-extended by code: model picked 18.0s, moved the start",
+      "Moment 1 (B003->B005): 2.1s -> 4.7s by code"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Wounded Duke Arrives",
+          "start_block": "B003",
+          "end_block": "B028",
+          "hook": "A heavy wooden door suddenly creaks and bangs open in the quiet cottage as Alexander stands framed in the dark threshold, panting heavily, his hand pressed against his bloodied coat.",
+          "cliffhanger": "Close-up shot of Alexander pulling his dark shirt over his head, revealing his muscular torso crisscrossed with jagged battle scars.",
+          "why": "The sudden violent intrusion and the visual reveal of the Duke's severe battle wounds create immediate tension and curiosity about his survival.",
+          "context_gap": "A stranger would not understand why a Duke is bleeding in a cottage or who is attacking him."
+        },
+        {
+          "title": "He's Only A Scratch",
+          "start_block": "B020",
+          "end_block": "B028",
+          "hook": "Medium close-up of Juliana dipping a linen cloth into the water bowl. She asks, 'I need to see the wound.' Alexander looks up at her stubbornly and replies, 'It is only a scratch.'",
+          "cliffhanger": "Close-up shot of Alexander pulling his dark shirt over his head, revealing his muscular torso crisscrossed with jagged battle scars.",
+          "why": "The dialogue establishes a conflict between Juliana's concern and Alexander's stoicism, leading to a shocking visual payoff.",
+          "context_gap": "A stranger would not know that Alexander is injured or that his injuries are much worse than he admits."
+        },
+        {
+          "title": "Your Touch Is The Only Medicine",
+          "start_block": "B047",
+          "end_block": "B060",
+          "hook": "Close-up of Juliana looking up from his shoulder into his eyes, sensing the intensity of his gaze. She asks, 'Why do you look at me like that?'",
+          "cliffhanger": "Close-up shot of Alexander gazing into Juliana's eyes with raw, unmasked devotion. He says, 'Your touch is the only medicine that has ever eased my pain.'",
+          "why": "The moment shifts from physical care to deep emotional vulnerability, revealing the Duke's hidden feelings for his wife.",
+          "context_gap": "A stranger would not know that Alexander and Juliana are married or that they have a romantic connection."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B003",
+          "end_block": "B005",
+          "kind": "hook",
+          "description": "Alexander bursts into the cottage, panting heavily and clutching his bloodied coat."
+        },
+        {
+          "start_block": "B027",
+          "end_block": "B029",
+          "kind": "reveal",
+          "description": "Alexander reveals his muscular torso crisscrossed with jagged battle scars."
+        },
+        {
+          "start_block": "B034",
+          "end_block": "B036",
+          "kind": "emotional",
+          "description": "Juliana tells Alexander, 'You have suffered terribly,' and he replies, 'It is over.'"
+        },
+        {
+          "start_block": "B059",
+          "end_block": "B060",
+          "kind": "cliffhanger",
+          "description": "Alexander confesses to Juliana, 'Your touch is the only medicine that has ever eased my pain.'"
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 11,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Gerald's Cruel Accusation\" (B016->B024): too short (10.2s, need at least 20s) -> auto-extended by code: model picked 10.2s, moved the start",
+      "Promo 2 \"The Search Begins\" (B033->B047): too short (16.6s, need at least 20s) -> auto-extended by code: model picked 16.6s, moved the start",
+      "Promo 3 \"The Frame-Up Revealed\" (B077->B084): too short (14.7s, need at least 20s) -> auto-extended by code: model picked 14.7s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Gerald's Cruel Accusation",
+          "start_block": "B016",
+          "end_block": "B024",
+          "hook": "Gerald points an accusatory finger, screaming that Alexander stole his gold pocket watch.",
+          "cliffhanger": "Gerald smirks and threatens, 'Then you should have nothing to fear from a search.'",
+          "why": "It establishes the villain immediately with a shocking accusation and sets up a high-stakes conflict.",
+          "context_gap": "The viewer doesn't know Alexander is the Duke or that Gerald is a treacherous ex-fiancé."
+        },
+        {
+          "title": "The Search Begins",
+          "start_block": "B033",
+          "end_block": "B047",
+          "hook": "A uniformed Constable marches in and demands to search the cottage for the stolen watch.",
+          "cliffhanger": "Juliana looks up at Alexander in panicked confusion as he calmly says, 'Let them.'",
+          "why": "It creates immediate tension as the law invades their home and the Duke submits to it.",
+          "context_gap": "The viewer doesn't know the watch is a planted frame-up or that Alexander is suppressing his rage."
+        },
+        {
+          "title": "The Frame-Up Revealed",
+          "start_block": "B077",
+          "end_block": "B084",
+          "hook": "The Constable pulls a gleaming gold pocket watch from Alexander's coat and holds it up.",
+          "cliffhanger": "Gerald erupts into triumphant laughter, shouting, 'There it is. Ha!'",
+          "why": "It delivers the devastating twist that the couple is being framed, shattering their trust in the situation.",
+          "context_gap": "The viewer doesn't know the watch was planted by Gerald or that they are being set up."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B016",
+          "end_block": "B018",
+          "kind": "hook",
+          "description": "Gerald accuses Alexander of stealing his gold pocket watch, and Juliana gasps in disbelief."
+        },
+        {
+          "start_block": "B028",
+          "end_block": "B030",
+          "kind": "cliffhanger",
+          "description": "Gerald mocks Alexander as a beggar, and Alexander steps past Juliana with a murderous gaze."
+        },
+        {
+          "start_block": "B044",
+          "end_block": "B046",
+          "kind": "cliffhanger",
+          "description": "Gerald taunts Alexander to let the Constable search, and Alexander coldly agrees, 'Search it.'"
+        },
+        {
+          "start_block": "B078",
+          "end_block": "B080",
+          "kind": "reveal",
+          "description": "The Constable pulls a gold pocket watch from Alexander's coat, and Juliana gasps in horror."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 12,
+    "proposed_promos": 2,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Wife's Sacrifice\" (B001->B054): too long (87.2s, max 60s) -> auto-trimmed by code: model picked 87.2s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Wife's Sacrifice",
+          "start_block": "B001",
+          "end_block": "B054",
+          "hook": "The Constable raises heavy iron handcuffs and arrests Alexander for theft.",
+          "cliffhanger": "Juliana turns to Clarissa and demands, 'Tell me where the garden is.'",
+          "why": "It establishes the immediate threat to the hero and the villain's cruel demand, creating high stakes and emotional tension.",
+          "context_gap": "A stranger would not know that the watch was planted by the villains or that Juliana is willing to risk her life to save her husband."
+        },
+        {
+          "title": "Hanging Threat",
+          "start_block": "B043",
+          "end_block": "B054",
+          "hook": "Clarissa coldly tells Juliana she must retrieve a ring from frozen blackthorn briars with her bare hands.",
+          "cliffhanger": "Juliana locks eyes with Clarissa without flinching as the scene freezes on her brave, sacrificial defiance.",
+          "why": "The sadistic ultimatum creates a visceral sense of danger and desperation, ending on a powerful image of the heroine's resolve.",
+          "context_gap": "A stranger would not understand that the briars are razor-sharp or that the threat of hanging is real."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "cliffhanger",
+          "description": "Clarissa mocks Juliana for defending her 'broken scrap of a man,' and Juliana counters with a steely, resolute question."
+        },
+        {
+          "start_block": "B034",
+          "end_block": "B038",
+          "kind": "cliffhanger",
+          "description": "Clarissa describes her emerald signet ring lost in frozen, razor-sharp blackthorn briars, setting up a dangerous task."
+        },
+        {
+          "start_block": "B044",
+          "end_block": "B048",
+          "kind": "cliffhanger",
+          "description": "Clarissa whispers that Juliana will watch her husband hang if she fails to retrieve the ring."
+        },
+        {
+          "start_block": "B051",
+          "end_block": "B054",
+          "kind": "cliffhanger",
+          "description": "Juliana declares she will not let them take Alexander and demands to know where the garden is."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 13,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 2 \"I Will Not Abandon You\" (B014->B020): too short (15.6s, need at least 20s) -> auto-extended by code: model picked 15.6s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "She Crawls Into The Briars",
+          "start_block": "B020",
+          "end_block": "B047",
+          "hook": "Clarissa mocks Juliana, calling the garden a place that has swallowed better women, while Gerald sneers that her husband's freedom is in there.",
+          "cliffanger": "Clarissa gleefully points down at Juliana as she bleeds from her hands, mocking that the lady has finally found something worthy of her.",
+          "why": "It establishes the high stakes immediately with a cruel villain and a desperate hero, ending on a sadistic taunt that compels the viewer to see if she survives.",
+          "context_gap": "A stranger would not know why Juliana is crawling into a frozen briar patch or why she is bleeding, only that she is being tortured by her sister and brother-in-law."
+        },
+        {
+          "title": "I Will Not Abandon You",
+          "start_block": "B014",
+          "end_block": "B020",
+          "hook": "Alexander begs Juliana not to go into the thorns, declaring he would rather face the gallows than watch her hurt herself for him.",
+          "cliffanger": "Juliana gently clasps his handcuffed hands, looks up with unyielding love, and says, 'You stood beside me when everyone else abandoned me. I will not abandon you now.'",
+          "why": "The promo focuses on the emotional core of their marriage, contrasting Alexander's fear with Juliana's fierce devotion, ending on a powerful vow of loyalty.",
+          "context_gap": "A stranger would not understand that Juliana is risking her life to save Alexander from a false charge of theft, nor that they are newlyweds."
+        },
+        {
+          "title": "Your Husband's Freedom",
+          "start_block": "B030",
+          "end_block": "B047",
+          "hook": "Alexander screams for Juliana to stop as the Constable restrains him, while Juliana crawls deeper into the razor-sharp blackthorn thicket.",
+          "cliffanger": "A massive blackthorn needle stabs deep into the back of Juliana's bleeding hand, and Alexander struggles in agony, screaming, 'Please... enough!'",
+          "why": "The promo captures the visceral violence of the torture and the helplessness of the husband, ending on a moment of extreme physical pain and despair.",
+          "context_gap": "A stranger would not know that Alexander is being held captive by the constable or that Juliana is risking her life to retrieve a specific ring to save him."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "Clarissa and Gerald stand on the balcony, mocking Juliana as she prepares to crawl into the frozen blackthorn garden."
+        },
+        {
+          "start_block": "B035",
+          "end_block": "B039",
+          "kind": "cliffanger",
+          "description": "Juliana's bare hands are raked by blackthorn spines, carving bloody gashes across her skin as Clarissa gleefully points down."
+        },
+        {
+          "start_block": "B047",
+          "end_block": "B051",
+          "kind": "cliffanger",
+          "description": "Juliana screams in agony as her hand gets snagged between two vicious thorns, tearing her flesh and sleeve."
+        },
+        {
+          "start_block": "B067",
+          "end_block": "B071",
+          "kind": "reveal",
+          "description": "Juliana's blood-smeared finger brushes against a massive, radiant emerald signet ring buried in the frozen soil."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 14,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 3 \"No One Will Ever Hurt You\" (B041->B047): too short (17.5s, need at least 20s) -> auto-extended by code: model picked 17.5s, moved the end"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "She Bleeds for Him",
+          "start_block": "B004",
+          "end_block": "B024",
+          "hook": "Juliana steps out of the briars, her hands covered in blood, demanding her husband be released.",
+          "cliffhanger": "Alexander scoops her up, whispering that she should never have had to bleed for him.",
+          "why": "It captures the immediate aftermath of the torture scene with high emotional stakes and a protective vow.",
+          "context_gap": "A stranger might not know Juliana just crawled through razor-sharp thorns to save Alexander from hanging."
+        },
+        {
+          "title": "I Found It",
+          "start_block": "B004",
+          "end_block": "B018",
+          "hook": "Juliana emerges from the thorns, holding the emerald signet ring and telling the constable to release her husband.",
+          "cliffhanger": "Alexander stares at her bleeding hands, trembling and asking what they have done to her.",
+          "why": "It highlights the physical cost of her sacrifice and Alexander's immediate, heartbroken reaction.",
+          "context_gap": "Viewers need to know that the ring was hidden in the briars and that Alexander was being arrested."
+        },
+        {
+          "title": "No One Will Ever Hurt You",
+          "start_block": "B041",
+          "end_block": "B047",
+          "hook": "Alexander wraps a blanket around Juliana, telling her she has taken his place and done it better than him.",
+          "cliffhanger": "He kisses her head and vows that no one will ever hurt her for protecting him again.",
+          "why": "It provides a powerful emotional climax and a strong promise of future protection and revenge.",
+          "context_gap": "A viewer would miss the context that Juliana was tortured to retrieve the ring that freed Alexander."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B014",
+          "end_block": "B018",
+          "kind": "emotional",
+          "description": "Alexander tenderly examines Juliana's bleeding, lacerated hands, asking what they have done to her."
+        },
+        {
+          "start_block": "B022",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "Alexander carries Juliana bridal-style, whispering that she should never have had to bleed for him."
+        },
+        {
+          "start_block": "B046",
+          "end_block": "B048",
+          "kind": "cliffhanger",
+          "description": "Alexander kisses Juliana's head and vows that no one will ever hurt her for protecting him again."
+        },
+        {
+          "start_block": "B050",
+          "end_block": "B051",
+          "kind": "reveal",
+          "description": "Alexander clenches his fist into an iron ball of vengeance as the screen cuts to black."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 15,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Thugs destroy garden\" (B001->B047): too long (73.5s, max 60s) -> auto-trimmed by code: model picked 73.5s, moved the start",
+      "Moment 1 (B004->B005): 1.5s -> 4.0s by code",
+      "Moment 4 (B042->B043): 2.0s -> 3.2s by code"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Thugs destroy garden",
+          "start_block": "B001",
+          "end_block": "B047",
+          "hook": "Three thugs smash a planter box and rip up medicinal herbs under the moonlight.",
+          "cliffhanger": "Alexander charges out of the darkness to defend her.",
+          "why": "It starts with immediate destruction of a personal space and escalates to a physical confrontation, creating high tension.",
+          "context_gap": "A stranger would not know Juliana is a noblewoman or that Alexander is her husband, only that a woman is being attacked."
+        },
+        {
+          "title": "Lady in the mud",
+          "start_block": "B018",
+          "end_block": "B047",
+          "hook": "Juliana drops to her knees in the mud to save her crushed plants.",
+          "cliffhanger": "Alexander charges out of the darkness to defend her.",
+          "why": "It focuses on the victim's desperation and humiliation, making the viewer root for her protection.",
+          "context_gap": "A stranger would not understand the emotional weight of the plants or the relationship between Juliana and Alexander."
+        },
+        {
+          "title": "Thug threatens noble",
+          "start_block": "B030",
+          "end_block": "B047",
+          "hook": "A thug steps into Juliana's face and snarls, 'Get out of the way!'",
+          "cliffhanger": "Alexander charges out of the darkness to defend her.",
+          "why": "It creates a clear power dynamic with a direct threat, setting up a satisfying rescue.",
+          "context_gap": "A stranger would not know Juliana is a noblewoman or that Alexander is her husband."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B004",
+          "end_block": "B005",
+          "kind": "hook",
+          "description": "A thug smashes a wooden planter box, shattering the frame with a loud crash."
+        },
+        {
+          "start_block": "B017",
+          "end_block": "B018",
+          "kind": "cliffhanger",
+          "description": "The bald thug grinds his boot into the crushed flowers while Juliana watches in horror."
+        },
+        {
+          "start_block": "B037",
+          "end_block": "B038",
+          "kind": "emotional",
+          "description": "Juliana crawls through the mud, fresh blood seeping through her bandaged hands."
+        },
+        {
+          "start_block": "B042",
+          "end_block": "B043",
+          "kind": "cliffhanger",
+          "description": "The Tall Thug hoists his club to crush the remaining herbs right before Juliana."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 16,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 3 \"Defiant Thug\" (B034->B047): too short (18.2s, need at least 20s) -> auto-extended by code: model picked 18.2s, moved the start",
+      "Moment 1 (B013->B015): 2.5s -> 5.2s by code"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Garden Attack",
+          "start_block": "B012",
+          "end_block": "B047",
+          "hook": "A thug lunges at Alexander with a weapon raised high.",
+          "cliffhanger": "Juliana reels in devastated disbelief as the thug screams, 'Gerald Harrington paid us!'",
+          "why": "It combines high-stakes action with a major character betrayal reveal.",
+          "context_gap": "The viewer doesn't know who Gerald Harrington is or why he would pay thugs to destroy the garden."
+        },
+        {
+          "title": "Soldier's Past",
+          "start_block": "B052",
+          "end_block": "B063",
+          "hook": "Juliana stands in awe of Alexander's combat skills.",
+          "cliffhanger": "Alexander turns his profile away, shadowed by haunted memories, and says, 'A soldier learns things he wishes he could forget.'",
+          "why": "It creates a compelling emotional mystery about Alexander's hidden history.",
+          "context_gap": "The viewer is unaware of Alexander's past or the specific trauma he is referring to."
+        },
+        {
+          "title": "Defiant Thug",
+          "start_block": "B034",
+          "end_block": "B047",
+          "hook": "Alexander yanks a thug off the ground by his coat.",
+          "cliffhanger": "Juliana looks on in shock as the thug gasps, 'Gerald Harrington paid us!'",
+          "why": "It focuses intensely on the interrogation and the shocking name drop.",
+          "context_gap": "The viewer doesn't know who Gerald Harrington is or his connection to the couple."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B013",
+          "end_block": "B015",
+          "kind": "hook",
+          "description": "Alexander catches a thug's iron pipe mid-air with his bare hand."
+        },
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "reveal",
+          "description": "The Bald Thug charges in, shouting, 'Aaargh!' as Alexander hurls him."
+        },
+        {
+          "start_block": "B044",
+          "end_block": "B046",
+          "kind": "cliffhanger",
+          "description": "The Thug with Cap screams, 'Gerald Harrington paid us!' and Juliana gasps."
+        },
+        {
+          "start_block": "B057",
+          "end_block": "B058",
+          "kind": "emotional",
+          "description": "Alexander turns away, haunted by his past as Juliana looks on."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 17,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 2 \"He Will Not Let Her Go\" (B021->B028): too short (13.0s, need at least 20s) -> auto-extended by code: model picked 13.0s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "He Swears To Protect Her",
+          "start_block": "B012",
+          "end_block": "B028",
+          "hook": "Close-up of Alexander turning toward her, his scarred face stoic and intense.",
+          "cliffhanger": "Close-up of Alexander's intense, protective gaze locking onto hers.",
+          "why": "The stoic, scarred stranger immediately establishes himself as a fierce protector, creating instant tension and emotional investment.",
+          "context_gap": "A stranger would not know he is the Duke or that he just defeated her attackers."
+        },
+        {
+          "title": "He Will Not Let Her Go",
+          "start_block": "B021",
+          "end_block": "B028",
+          "hook": "Tracking shot following Alexander as he strides across the muddy garden and approaches Juliana.",
+          "cliffhanger": "Close-up of Alexander's intense, protective gaze locking onto hers.",
+          "why": "The visual of the powerful man dropping to his knees in the mud creates a powerful, intimate power dynamic.",
+          "context_gap": "A stranger would not know the depth of his devotion or the threat they just faced."
+        },
+        {
+          "title": "He Is Her Shield",
+          "start_block": "B030",
+          "end_block": "B045",
+          "hook": "Medium shot in the warm, flickering firelight of the stone cottage. Juliana kneels on the stone floor beside a washbasin of water while Ale…",
+          "cliffhanger": "Close-up of Juliana gazing directly into his eyes, her heart laid bare.",
+          "why": "The intimate domestic setting contrasts with the previous violence, highlighting their emotional connection and vulnerability.",
+          "context_gap": "A stranger would not know that he was injured protecting her or that she is afraid of losing him."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "Alexander kneels before Juliana and vows no one will hurt her again."
+        },
+        {
+          "start_block": "B045",
+          "end_block": "B048",
+          "kind": "cliffhanger",
+          "description": "Juliana confesses she is frightened of losing Alexander, and he pulls her into a hug."
+        },
+        {
+          "start_block": "B057",
+          "end_block": "B060",
+          "kind": "reveal",
+          "description": "Juliana playfully teases Alexander about his long hair, and he smirks."
+        },
+        {
+          "start_block": "B072",
+          "end_block": "B075",
+          "kind": "cliffhanger",
+          "description": "Juliana reflects on not knowing the man she married, and the scene fades out."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 18,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Fire in the Night\" (B001->B062): too long (119.8s, max 60s) -> auto-trimmed by code: model picked 119.8s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Fire in the Night",
+          "start_block": "B001",
+          "end_block": "B062",
+          "hook": "Bright orange flames crackle beneath a closed bedroom door as thick smoke billows through the cracks.",
+          "cliffhanger": "The entire parlor collapses into an uncontrollable inferno of roaring flames.",
+          "why": "It starts with immediate danger and escalates to a massive disaster, creating high tension.",
+          "context_gap": "A stranger would not know who the couple is or why they are being targeted."
+        },
+        {
+          "title": "The Ledger Rescue",
+          "start_block": "B030",
+          "end_block": "B050",
+          "hook": "A close-up shows a leather-bound herbal ledger on a burning table as the pages curl and singe.",
+          "cliffhanger": "A massive wooden beam crashes directly where Juliana had been standing, showering them in sparks.",
+          "why": "It focuses on a specific, high-stakes object and a life-threatening moment.",
+          "context_gap": "The viewer won't understand the emotional value of the ledger or the danger Alexander is in."
+        },
+        {
+          "title": "Vengeance Rising",
+          "start_block": "B074",
+          "end_block": "B081",
+          "hook": "Juliana sits over Alexander in the mud, sobbing that they have nowhere to go.",
+          "cliffhanger": "Juliana asks, trembling, 'What are you going to do?'",
+          "why": "It establishes the stakes of their loss and sets up Alexander's response.",
+          "context_gap": "A stranger would not know who the villain is or what specific revenge Alexander plans."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B012",
+          "end_block": "B014",
+          "kind": "hook",
+          "description": "A violent crash as the bedroom door is kicked open and Alexander bursts in, looking like an imposing guardian amid the blaze."
+        },
+        {
+          "start_block": "B032",
+          "end_block": "B034",
+          "kind": "cliffhanger",
+          "description": "Juliana spots her mother's herbal ledger and halts, pointing back toward the burning desk as Alexander shouts, 'Leave it!'"
+        },
+        {
+          "start_block": "B060",
+          "end_block": "B062",
+          "kind": "cliffhanger",
+          "description": "Alexander leaps through the burning window frame, carrying Juliana safely out into the night as the parlor collapses behind them."
+        },
+        {
+          "start_block": "B077",
+          "end_block": "B078",
+          "kind": "reveal",
+          "description": "Alexander's expression hardens into a mask of pure, lethal fury as he vows, 'They took our home. I will not let them take anything else now.'"
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 19,
+    "proposed_promos": 2,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Mother Imprisoned",
+          "start_block": "B026",
+          "end_block": "B050",
+          "hook": "A bald, scarred man bows to Alexander, reporting that Lord Sterling has taken over the ducal seat.",
+          "cliffhanger": "Alexander vows, 'Then Ashburg will remember who it belongs to.'",
+          "why": "The reveal that Alexander's enemies have seized his home and imprisoned his mother creates high stakes and immediate revenge motivation.",
+          "context_gap": "A stranger would not know that Alexander is a Duke or that Sterling is a usurper."
+        },
+        {
+          "title": "Barn Rescue",
+          "start_block": "B051",
+          "end_block": "B063",
+          "hook": "Juliana sits alone in a dark barn, crying over her mother's herbal book.",
+          "cliffhanger": "Alexander steps into the lantern light, wraps a blanket around her, and sits beside her.",
+          "why": "The visual of the couple finding safety together after the fire provides emotional relief and a tender connection.",
+          "context_gap": "A stranger would not know that their cottage was destroyed by fire."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "Alexander accepts blankets and bread from a villager, and Juliana says goodbye to the ruins of Blackwood cottage."
+        },
+        {
+          "start_block": "B028",
+          "end_block": "B031",
+          "kind": "reveal",
+          "description": "The bald informant bows to Alexander, revealing he is an operative reporting on Lord Sterling's takeover."
+        },
+        {
+          "start_block": "B038",
+          "end_block": "B043",
+          "kind": "cliffhanger",
+          "description": "Alexander clenches his fist in rage as the informant reveals that his mother is a prisoner in her own house."
+        },
+        {
+          "start_block": "B055",
+          "end_block": "B059",
+          "kind": "emotional",
+          "description": "Juliana breaks down in tears in the barn, and Alexander comforts her by wrapping a blanket around her."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 20,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Duchess's Cruel Threat\" (B011->B012): too short (4.9s, need at least 20s) -> auto-extended by code: model picked 4.9s, moved the end",
+      "Promo 3 \"Murderous Plot\" (B015->B016): too short (5.5s, need at least 20s) -> auto-extended by code: model picked 5.5s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Duchess's Cruel Threat",
+          "start_block": "B011",
+          "end_block": "B012",
+          "hook": "Catherine pours tea and declares, 'Practically is a word for beggars. I do not marry a practical Duke. I marry the Lord of Ashbury.'",
+          "cliffhanger": "Catherine declares she marries the Lord of Ashbury, establishing her ruthless ambition.",
+          "why": "The dialogue is instantly confrontational and establishes the villain's power-hungry nature immediately.",
+          "context_gap": "A stranger wouldn't know that Catherine is plotting to steal the title from the rightful Duke, Alexander."
+        },
+        {
+          "title": "Villagers' Suffering",
+          "start_block": "B035",
+          "end_block": "B053",
+          "hook": "Juliana kneels in the freezing barn sorting herbs while Seamus begs her to rest, calling her a 'viscount's daughter' reduced to sorting weeds.",
+          "cliffhanger": "Juliana defiantly replies, 'They have reduced me to myself. And I am not finished.'",
+          "why": "It contrasts the villain's luxury with the hero's sacrifice, creating immediate emotional stakes.",
+          "context_gap": "A stranger wouldn't know that Juliana is a noblewoman hiding in the village to save the sick."
+        },
+        {
+          "title": "Murderous Plot",
+          "start_block": "B015",
+          "end_block": "B016",
+          "hook": "Rupert boasts, 'Once my cousin Alexander's death is formally sealed by the Crown... the title is mine.'",
+          "cliffhanger": "Rupert declares the title is his, implying Alexander is already dead or sealed away.",
+          "why": "It reveals the central conspiracy and the villain's confidence in his crime.",
+          "context_gap": "A stranger wouldn't know that Alexander is Juliana's husband and the true Duke, currently missing."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "Rupert and Catherine discuss the Dowager Duchess's slow death, with Rupert gloating that he has ensured her quiet comfort through the winter."
+        },
+        {
+          "start_block": "B035",
+          "end_block": "B042",
+          "kind": "cliffhanger",
+          "description": "Juliana refuses to stop working in the freezing barn to save the village, telling Seamus, 'If I stop, the lung fever in the valley wins.'"
+        },
+        {
+          "start_block": "B047",
+          "end_block": "B053",
+          "kind": "cliffhanger",
+          "description": "Juliana stands up to Seamus's grief, declaring, 'They have reduced me to myself. And I am not finished.'"
+        },
+        {
+          "start_block": "B057",
+          "end_block": "B058",
+          "kind": "reveal",
+          "description": "Catherine dismisses the villagers' suffering, telling Rupert, 'Let the peasants rot in their barns. Let them pray to their weeds.'"
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 21,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Village Boy's Life\" (B003->B053): too long (72.5s, max 60s) -> auto-trimmed by code: model picked 72.5s, moved the start",
+      "Promo 2 \"The Manor's Secret\" (B063->B073): too short (17.5s, need at least 20s) -> auto-extended by code: model picked 17.5s, moved the end",
+      "Promo 3 \"Desperate Plea\" (B020->B025): too short (9.5s, need at least 20s) -> auto-extended by code: model picked 9.5s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Village Boy's Life",
+          "start_block": "B003",
+          "end_block": "B053",
+          "hook": "The heavy double barn doors violently fly open as Prudence rushes in, screaming that Toby is dying.",
+          "cliffhanger": "Prudence covers her mouth in overwhelming relief, crying that the rattling has stopped.",
+          "why": "It establishes Juliana's competence and the stakes immediately with a high-stakes medical emergency.",
+          "context_gap": "A stranger might not know Juliana is a noblewoman or that she has a specific medical background."
+        },
+        {
+          "title": "The Manor's Secret",
+          "start_block": "B063",
+          "end_block": "B073",
+          "hook": "Prudence stands in the room, her expression darkening with anger as she says, 'But their gold cannot buy them health.'",
+          "cliffhanger": "Prudence whispers with grave intensity, 'Inside that massive house with all their wealth, she is fading to nothing, and no one can stop it.'",
+          "why": "It creates a powerful thematic contrast between the village's poverty and the manor's hidden decay.",
+          "context_gap": "A stranger would not know who 'she' refers to or the significance of the 'massive house'."
+        },
+        {
+          "title": "Desperate Plea",
+          "start_block": "B020",
+          "end_block": "B025",
+          "hook": "Prudence drops to her knees on the hay-strewn barn floor, clasping her hands in tearful supplication.",
+          "cliffhanger": "Juliana firmly pulls Prudence back to her feet and commands, 'Stand up. Sinking to your knees will not save him. We go now.'",
+          "why": "It highlights Juliana's shift from despair to action and her refusal to give up on the boy.",
+          "context_gap": "A stranger would not understand why Juliana is in a barn or why she is suddenly so authoritative."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "Prudence drops to her knees on the hay-strewn barn floor, pleading for Juliana to save her dying brother Toby."
+        },
+        {
+          "start_block": "B035",
+          "end_block": "B038",
+          "kind": "action",
+          "description": "Juliana commands Prudence to fetch hot water immediately, and Prudence rushes to obey."
+        },
+        {
+          "start_block": "B045",
+          "end_block": "B048",
+          "kind": "cliffhanger",
+          "description": "Juliana directs the medicinal steam toward Toby's face, whispering, 'Lift his shoulders, Prudence. Hold the steam close.'"
+        },
+        {
+          "start_block": "B068",
+          "end_block": "B071",
+          "kind": "reveal",
+          "description": "Juliana turns sharply with sudden recognition and asks Prudence, 'What do you mean? Is someone ill? The Dowager Duchess?'"
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 22,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 3 \"A Noble Sacrifice\" (B018->B022): too short (11.0s, need at least 20s) -> auto-extended by code: model picked 11.0s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Betrayal at the Manor",
+          "start_block": "B024",
+          "end_block": "B047",
+          "hook": "A stern housekeeper confronts the disguised Juliana, demanding to know who she is.",
+          "cliffhanger": "The housekeeper points a bony finger toward the servant corridor stairs and threatens to throw her out.",
+          "why": "It establishes immediate tension and the high stakes of Juliana's secret infiltration.",
+          "context_gap": "A stranger won't know Juliana is a noblewoman in disguise or that she is trying to save the dying Duchess."
+        },
+        {
+          "title": "The West Wing Secret",
+          "start_block": "B063",
+          "end_block": "B080",
+          "hook": "Lady Juliana stands outside a massive carved mahogany door in the West Wing, checking for observers.",
+          "cliffhanger": "She whispers, 'Who has been treating you?' to the unconscious Dowager Duchess as the Duchess convulses.",
+          "why": "It creates a classic mystery hook with a dangerous location and a shocking question about poisoning.",
+          "context_gap": "The viewer won't understand why Juliana is sneaking into the West Wing or that she suspects foul play."
+        },
+        {
+          "title": "A Noble Sacrifice",
+          "start_block": "B018",
+          "end_block": "B022",
+          "hook": "Prudence solemnly tells Juliana to forget she was ever a lady before opening the heavy servant entrance door.",
+          "cliffhanger": "The door shuts firmly behind them, cutting off their conversation and plunging them into the dark servants' corridor.",
+          "why": "It highlights the emotional weight of Juliana's disguise and the immediate danger she is entering.",
+          "context_gap": "The viewer won't know Juliana is risking her life to save the Dowager Duchess."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "Juliana swallows her pride and accepts her perilous disguise, stating, 'Today, I am only a maid.'"
+        },
+        {
+          "start_block": "B028",
+          "end_block": "B031",
+          "kind": "reveal",
+          "description": "Prudence introduces Juliana to the Housekeeper as 'Julian, ma'am. New help for the winter cleaning.'"
+        },
+        {
+          "start_block": "B064",
+          "end_block": "B067",
+          "kind": "cliffhanger",
+          "description": "Juliana twists the latch handle of the ornate door, and the camera pushes into the shadowy bedchamber."
+        },
+        {
+          "start_block": "B076",
+          "end_block": "B080",
+          "kind": "cliffhanger",
+          "description": "Juliana realizes the Duchess's illness is unnatural and asks, 'Who has been treating you?'"
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 23,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Poisoned Duchess\" (B006->B067): too long (119.7s, max 60s) -> auto-trimmed by code: model picked 119.7s, moved the start",
+      "Promo 3 \"The Intruder\" (B058->B067): too short (19.3s, need at least 20s) -> auto-extended by code: model picked 19.3s, moved the start",
+      "Moment 4 (B066->B067): 2.3s -> 4.0s by code"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Poisoned Duchess",
+          "start_block": "B006",
+          "end_block": "B067",
+          "hook": "Close-up of the Duchess's fingertips revealing pronounced dark, purplish-black discoloration beneath the nails.",
+          "cliffhanger": "The heavy door cracks open inward into the room, cutting to an intense...",
+          "why": "The visual of blackened nails is an immediate, shocking medical reveal that establishes a life-or-death mystery. The clip ends on the terrifying sound of the door opening, creating a high-stakes cliffhanger.",
+          "context_gap": "A stranger would not know that the Duchess is Juliana's mother-in-law or that the blackened nails indicate arsenic poisoning."
+        },
+        {
+          "title": "The Diagnosis",
+          "start_block": "B019",
+          "end_block": "B045",
+          "hook": "Lady Juliana stands upright, her expression hardening with fierce skepticism.",
+          "cliffhanger": "Arsenic.",
+          "why": "The clip features a strong character beat where Juliana rejects the physician's diagnosis and identifies the specific poison. It ends on the definitive, chilling word 'Arsenic,' which serves as a powerful cliffhanger.",
+          "context_gap": "A stranger would not know that Juliana is a noblewoman using her mother's knowledge to save the Duchess."
+        },
+        {
+          "title": "The Intruder",
+          "start_block": "B058",
+          "end_block": "B067",
+          "hook": "Sudden muffled thump and heavy footsteps echoing from the hallway outside the door!",
+          "cliffhanger": "Juliana... someone is coming.",
+          "why": "This clip utilizes sound design to create immediate tension. It starts with the ominous sound of footsteps and ends on Prudence's terrified whisper, effectively trapping Juliana in a dangerous situation.",
+          "context_gap": "A stranger would not know that Juliana is in the West Wing of the manor or that she is preparing an antidote."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B006",
+          "end_block": "B007",
+          "kind": "hook",
+          "description": "Close-up of the Duchess's fingertips revealing pronounced dark, purplish-black discoloration beneath the nails."
+        },
+        {
+          "start_block": "B020",
+          "end_block": "B022",
+          "kind": "hook",
+          "description": "Lady Juliana stands upright, her expression hardening with fierce skepticism, and pulls out a worn, leather-bound notebook."
+        },
+        {
+          "start_block": "B045",
+          "end_block": "B046",
+          "kind": "cliffhanger",
+          "description": "Lady Juliana declares 'Arsenic' as the Duchess chokes and spasms on the bed."
+        },
+        {
+          "start_block": "B066",
+          "end_block": "B067",
+          "kind": "cliffhanger",
+          "description": "The door latch turns and the heavy door cracks open inward."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 24,
+    "proposed_promos": 2,
+    "proposed_moments": 3,
+    "length_fixes_by_code": [],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Cruel Noblewoman Strikes",
+          "start_block": "B024",
+          "end_block": "B047",
+          "hook": "The noblewoman strikes Juliana violently across the torso with a riding crop.",
+          "cliffhanger": "The noblewoman whispers that Juliana will remember what she is once her hands are black enough.",
+          "why": "It features immediate, shocking violence and a clear power dynamic between a cruel antagonist and a defiant victim.",
+          "context_gap": "A stranger would not know that Juliana is actually a noblewoman in disguise or that she is protecting the dying Duchess."
+        },
+        {
+          "title": "Scrubbing in the Dark",
+          "start_block": "B037",
+          "end_block": "B069",
+          "hook": "The noblewoman drags Juliana and Prudence down a dark hallway to scrub a soot-stained hearth.",
+          "cliffhanger": "Juliana vows to return and declares she cannot be stopped, while clutching the antidote in her pocket.",
+          "why": "It builds tension through the threat of punishment and the visual of the helpless maids, ending on a powerful, defiant vow.",
+          "context_gap": "A stranger would not understand that Juliana is hiding a cure for the Duchess and that the noblewoman is a villain."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B024",
+          "end_block": "B028",
+          "kind": "hook",
+          "description": "The noblewoman strikes Juliana with a riding crop and coldly states she is just a maid."
+        },
+        {
+          "start_block": "B037",
+          "end_block": "B041",
+          "kind": "cliffhanger",
+          "description": "The noblewoman drags Juliana and Prudence into a dark room and commands her to clean the hearth."
+        },
+        {
+          "start_block": "B064",
+          "end_block": "B069",
+          "kind": "cliffhanger",
+          "description": "Juliana pauses scrubbing to touch the hidden remedy book and vows to return."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 25,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "He Sees The Wound",
+          "start_block": "B009",
+          "end_block": "B024",
+          "hook": "Alexander grabs Juliana's shoulder, and she winces in sharp pain from a fresh injury.",
+          "cliffhanger": "Juliana whispers the name of her attacker: 'Lady Catherine.'",
+          "why": "The immediate physical reaction and the reveal of the attacker creates instant tension and establishes the villain.",
+          "context_gap": "A stranger would not know Juliana is a noblewoman disguised as a maid or that she is being hunted by a noblewoman."
+        },
+        {
+          "title": "The Poisoning Revealed",
+          "start_block": "B038",
+          "end_block": "B052",
+          "hook": "Alexander freezes in shock as Juliana reveals she went to the manor to save the Dowager Duchess from arsenic poisoning.",
+          "cliffhanger": "Juliana whispers the word 'Poison' as Alexander's face darkens with fury.",
+          "why": "The shift from a personal injury to a high-stakes conspiracy involving the Dowager Duchess raises the stakes significantly.",
+          "context_gap": "A stranger would not understand the relationship between Juliana and the Dowager Duchess, nor the severity of the poisoning."
+        },
+        {
+          "title": "She Won't Leave Her",
+          "start_block": "B065",
+          "end_block": "B088",
+          "hook": "Alexander asks if she will return to the dangerous manor, and Juliana looks at him with resolute purpose.",
+          "cliffhanger": "Juliana firmly states, 'I cannot abandon her,' as Alexander struggles with his protective fury.",
+          "why": "It highlights the emotional conflict between Juliana's safety and her duty, creating a compelling dilemma.",
+          "context_gap": "A stranger would not know who 'her' refers to or the dangerous nature of the mission Juliana is committed to."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B014",
+          "end_block": "B016",
+          "kind": "hook",
+          "description": "Alexander pulls back the torn fabric of Juliana's cloak to reveal a raw, bloody welt on her shoulder."
+        },
+        {
+          "start_block": "B024",
+          "end_block": "B026",
+          "kind": "cliffhanger",
+          "description": "Juliana whispers the name of her attacker, 'Lady Catherine,' as Alexander stares at her intensely."
+        },
+        {
+          "start_block": "B048",
+          "end_block": "B051",
+          "kind": "reveal",
+          "description": "Juliana reveals the horrifying truth that the Dowager Duchess is being poisoned with arsenic."
+        },
+        {
+          "start_block": "B081",
+          "end_block": "B085",
+          "kind": "cliffhanger",
+          "description": "Alexander trembles with terrified passion, warning, 'This time,' as Juliana insists she is being careful."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 26,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "The Ring Reveal",
+          "start_block": "B030",
+          "end_block": "B051",
+          "hook": "The Duchess stares at Juliana and asks why a girl of noble spirit works as a common maid.",
+          "cliffhanger": "The Duchess demands to know where Juliana got the ring.",
+          "why": "The shocking visual of the signet ring and the Duchess's frantic demand creates immediate mystery and high stakes.",
+          "context_gap": "A stranger would not know that the ring is a family heirloom belonging to the Dowager Duchess's son, Alexander."
+        },
+        {
+          "title": "Poison in the Bed",
+          "start_block": "B005",
+          "end_block": "B028",
+          "hook": "The Dowager Duchess wakes up weak and disoriented, asking who Juliana is.",
+          "cliffhanger": "Juliana reassures her that the charcoal is fighting the poison, but the Duchess reveals Rupert and Catherine are trying to kill her.",
+          "why": "It establishes the immediate danger and the conspiracy right at the start of the episode.",
+          "context_gap": "A stranger would not know that Juliana is secretly administering an antidote to save the Duchess from poisoning."
+        },
+        {
+          "title": "The Secret Maid",
+          "start_block": "B020",
+          "end_block": "B035",
+          "hook": "Juliana whispers that if the guards hear them, they are both dead.",
+          "cliffhanger": "Juliana rests her hand against the bedcover, revealing a distinctive engraved signet ring.",
+          "why": "The tension of the secret mission is broken by the visual reveal of the ring, signaling a major plot twist.",
+          "context_gap": "A stranger would not know that Juliana is a betrayed noblewoman hiding her identity to save the Duchess."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "cliffhanger",
+          "description": "Juliana whispers that if the guards hear them, they are both dead, and the Duchess clutches the blanket in dismay."
+        },
+        {
+          "start_block": "B030",
+          "end_block": "B034",
+          "kind": "reveal",
+          "description": "The Duchess asks why a girl of noble spirit works as a common maid, and Juliana admits her family cast her out to rot."
+        },
+        {
+          "start_block": "B034",
+          "end_block": "B038",
+          "kind": "reveal",
+          "description": "Juliana rests her hand against the bedcover, revealing a distinctive engraved signet ring, and the Duchess gasps in shock."
+        },
+        {
+          "start_block": "B047",
+          "end_block": "B051",
+          "kind": "cliffhanger",
+          "description": "The Duchess clamps Juliana's hand, demanding to know where she got the ring."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 27,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Ring Reveal\" (B012->B047): too long (64.0s, max 60s) -> auto-trimmed by code: model picked 64.0s, moved the start",
+      "Promo 2 \"Poison Accusation\" (B041->B081): too long (62.0s, max 60s) -> auto-trimmed by code: model picked 62.0s, moved the start",
+      "Promo 3 \"Arrest Trap\" (B086->B095): too short (16.5s, need at least 20s) -> auto-extended by code: model picked 16.5s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Ring Reveal",
+          "start_block": "B012",
+          "end_block": "B047",
+          "hook": "The Dowager Duchess stares at a ring on Juliana's finger and gasps, \"That is no ordinary band. It bears the Ashbourne crest.\"",
+          "cliffhanger": "Lady Catherine points a white-gloved finger at Juliana and demands, \"Show me your hand.\"",
+          "why": "It immediately establishes a high-stakes secret identity and pits the vulnerable heroine against a powerful antagonist.",
+          "context_gap": "A stranger won't know that the Ashbourne crest belongs to the missing Duke, Juliana's husband, or that Catherine is the villain."
+        },
+        {
+          "title": "Poison Accusation",
+          "start_block": "B041",
+          "end_block": "B081",
+          "hook": "The Blond Nobleman steps forward and coldly commands, \"Girl. Show me what you are holding.\"",
+          "cliffhanger": "Lady Catherine twists Juliana's words and shrieks, \"She admits she has been giving the Duchess poison in secret!\"",
+          "why": "It creates a tense interrogation scene where the heroine is trapped and accused of a capital crime.",
+          "context_gap": "A viewer won't know that the Blond Nobleman is actually the Duke, Alexander, and that he is orchestrating the frame-up."
+        },
+        {
+          "title": "Arrest Trap",
+          "start_block": "B086",
+          "end_block": "B095",
+          "hook": "The Blond Nobleman steps into Juliana's personal space and plucks the glass dropper vial from her hand.",
+          "cliffhanger": "Juliana casts a frantic glance back toward the bedridden Duchess as the armed guard drags her forcibly toward the doorway.",
+          "why": "It delivers a visceral moment of betrayal and imminent danger, ending on the heroine's helplessness.",
+          "context_gap": "A stranger won't know that the Blond Nobleman is the Duke, Alexander, and that he is betraying his wife."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "reveal",
+          "description": "The Dowager Duchess grips Juliana's forearm with fierce insistence, crying, \"My lost son wore that ring!\""
+        },
+        {
+          "start_block": "B041",
+          "end_block": "B043",
+          "kind": "hook",
+          "description": "The Blond Nobleman steps forward and commands, \"Girl. Show me what you are holding.\""
+        },
+        {
+          "start_block": "B066",
+          "end_block": "B068",
+          "kind": "cliffhanger",
+          "description": "Juliana raises the bottle and declares, \"It is an antidote.\" Lady Catherine sneers, \"An antidote to what?\""
+        },
+        {
+          "start_block": "B073",
+          "end_block": "B075",
+          "kind": "cliffhanger",
+          "description": "Juliana states the grim reality, \"Poison.\" The Blond Nobleman's expression freezes into a dark scowl."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 28,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Poisoned Duchess Accuses\" (B028->B036): too short (13.1s, need at least 20s) -> auto-extended by code: model picked 13.1s, moved the start",
+      "Promo 3 \"Drag Her to the Dungeons\" (B086->B096): too short (16.5s, need at least 20s) -> auto-extended by code: model picked 16.5s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Poisoned Duchess Accuses",
+          "start_block": "B028",
+          "end_block": "B036",
+          "hook": "The Dowager Duchess lunges from her bed, gasping and pointing an accusing finger at Catherine, screaming that she was poisoned.",
+          "cliffhanger": "The Duchess collapses back onto her pillows, coughing violently, as Juliana screams for help.",
+          "why": "It provides a high-stakes visual hook with a direct accusation of poisoning and ends on a life-threatening cliffhanger.",
+          "context_gap": "A stranger would not know who the Dowager Duchess is or why she is suddenly awake and accusing Catherine of murder."
+        },
+        {
+          "title": "Identity Exposed",
+          "start_block": "B065",
+          "end_block": "B074",
+          "hook": "Catherine kneels to pick up Juliana's mother's herbarium and reads the inscription 'Juliana Ashcroft' aloud with a triumphant grin.",
+          "cliffhanger": "Catherine steps up to Juliana, circling her like a predator, and whispers, 'The disgraced daughter... the girl thrown out of her own family home.'",
+          "why": "The reveal of the protagonist's secret identity is a classic genre hook that immediately establishes the stakes and the villain's knowledge.",
+          "context_gap": "A stranger would not understand why Juliana's name is on the book or the significance of being 'thrown out' of her family."
+        },
+        {
+          "title": "Drag Her to the Dungeons",
+          "start_block": "B086",
+          "end_block": "B096",
+          "hook": "Rupert commands the guard to drag Juliana to the wet cells beneath the south tower, while Catherine gleefully threatens to hang her.",
+          "cliffhanger": "Juliana's eyes are wide and trembling as the guard wrenches her backward into the dark hallway, cutting sharply to black.",
+          "why": "It combines a direct threat of imprisonment with a final cliffhanger that cuts to black, leaving the viewer desperate to know what happens next.",
+          "context_gap": "A stranger would not know what 'wet cells' are or why Juliana is being dragged away instead of being helped."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "The Dowager Duchess stirs and commands Rupert to stop, insisting Juliana is innocent and saved her."
+        },
+        {
+          "start_block": "B052",
+          "end_block": "B058",
+          "kind": "cliffhanger",
+          "description": "Catherine ruthlessly yanks the silver locket off Juliana's neck, causing her to scream in agony."
+        },
+        {
+          "start_block": "B069",
+          "end_block": "B073",
+          "kind": "reveal",
+          "description": "Catherine reads the handwritten inscription 'Juliana Ashcroft' from the herbarium, revealing her secret identity."
+        },
+        {
+          "start_block": "B091",
+          "end_block": "B095",
+          "kind": "cliffhanger",
+          "description": "Juliana reaches frantically for her mother's book as Catherine threatens to hang her before the magistrate."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 29,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Witchcraft Threat",
+          "start_block": "B012",
+          "end_block": "B047",
+          "hook": "Catherine mocks Juliana's mother's herbarium as a book of weeds and threatens to call it witchcraft.",
+          "cliffhanger": "Catherine asks what a penniless veteran can do against Ashbrook.",
+          "why": "It establishes the villain's cruelty and the high stakes of the conflict immediately.",
+          "context_gap": "A stranger wouldn't know who Ashbrook is or why the Duke is penniless."
+        },
+        {
+          "title": "Dungeon Isolation",
+          "start_block": "B051",
+          "end_block": "B072",
+          "hook": "The guards shove Juliana into a pitch-black, locked wet cell as Catherine watches from above.",
+          "cliffhanger": "The massive iron portcullis bars drop down, sealing her inside.",
+          "why": "The visual of the heavy door slamming and the bars dropping creates a visceral sense of entrapment.",
+          "context_gap": "A stranger wouldn't know Juliana is married to the Duke or why she is being punished."
+        },
+        {
+          "title": "Defiant Resolve",
+          "start_block": "B057",
+          "end_block": "B072",
+          "hook": "Juliana collapses in the dark cell, sobbing over her loss, then suddenly rises with a steely resolve.",
+          "cliffhanger": "The portcullis bars drop, cutting off her vow to never let them take Alexander.",
+          "why": "It contrasts her initial despair with a powerful, emotional shift that promises future action.",
+          "context_gap": "A stranger wouldn't understand the emotional weight of losing her mother's legacy."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "Catherine disdainfully describes the herbarium's contents as 'roots. leaves. powders' and calls it witchcraft, while Juliana lunges in outrage."
+        },
+        {
+          "start_block": "B030",
+          "end_block": "B034",
+          "kind": "cliffhanger",
+          "description": "Catherine whispers she will burn the book and that no one will remember what was written inside."
+        },
+        {
+          "start_block": "B053",
+          "end_block": "B056",
+          "kind": "cliffhanger",
+          "description": "The guards shove Juliana violently onto the wet floor and slam the heavy iron door shut."
+        },
+        {
+          "start_block": "B071",
+          "end_block": "B072",
+          "kind": "cliffhanger",
+          "description": "Juliana vows she will not let them take Alexander, and the portcullis bars drop."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 30,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Witchcraft Charge\" (B004->B047): too long (89.3s, max 60s) -> auto-trimmed by code: model picked 89.3s, moved the start",
+      "Promo 2 \"The Witch's Fate\" (B028->B067): too long (89.9s, max 60s) -> auto-trimmed by code: model picked 89.9s, moved the start",
+      "Promo 3 \"Subterranean Despair\" (B068->B071): too short (6.7s, need at least 20s) -> auto-extended by code: model picked 6.7s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Witchcraft Charge",
+          "start_block": "B004",
+          "end_block": "B047",
+          "hook": "Rupert stands nervously as the Elder Nobleman threatens to burn the 'rat' in the cellar.",
+          "cliffhanger": "The Elder Nobleman stares back without remorse and says, 'Precisely.'",
+          "why": "It establishes the high stakes immediately with a threat of execution and sets up the specific charge of witchcraft.",
+          "context_gap": "A stranger would not know who Rupert is, who the Elder Nobleman is, or why Juliana is being framed for poisoning the Duchess."
+        },
+        {
+          "title": "The Witch's Fate",
+          "start_block": "B028",
+          "end_block": "B067",
+          "hook": "Catherine stands regally by the fire and asks, 'You have a solution?'",
+          "cliffhanger": "The Elder Nobleman declares chillingly, 'Tomorrow, she stops being a prisoner. She becomes a witch.'",
+          "why": "It features a powerful villain reveal and a clear, terrifying ultimatum that raises the emotional stakes for Juliana.",
+          "context_gap": "A stranger would not know that Juliana is the prisoner, that Catherine is the antagonist, or that the 'solution' is a death sentence."
+        },
+        {
+          "title": "Subterranean Despair",
+          "start_block": "B068",
+          "end_block": "B071",
+          "hook": "A high-angle shot peers down into the flooded, pitch-black dungeon cells.",
+          "cliffhanger": "Juliana lifts her tear-stained face in dread and fragile hope as the frame holds.",
+          "why": "It creates a visceral, claustrophobic atmosphere and ends on a vulnerable, emotional beat that begs the viewer to save her.",
+          "context_gap": "A stranger would not know Juliana is trapped in the dungeon, that she is chained, or that she is facing execution."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B019",
+          "end_block": "B023",
+          "kind": "cliffhanger",
+          "description": "The Elder Nobleman aggressively pins Rupert against the wall with his cane and commands, 'We stop hiding the prisoner.'"
+        },
+        {
+          "start_block": "B041",
+          "end_block": "B045",
+          "kind": "reveal",
+          "description": "Catherine asks if Juliana will claim to be a healer, and the Elder Nobleman coldly replies, 'Then call it witchcraft.'"
+        },
+        {
+          "start_block": "B051",
+          "end_block": "B055",
+          "kind": "hook",
+          "description": "Catherine mentions Juliana's 'botanical ledger' as the key evidence to be used against her."
+        },
+        {
+          "start_block": "B063",
+          "end_block": "B067",
+          "kind": "cliffhanger",
+          "description": "Catherine exults that Juliana will hang and the town will cheer, while the Elder Nobleman declares she becomes a witch."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 31,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Dungeon Branding\" (B005->B048): too long (79.0s, max 60s) -> auto-trimmed by code: model picked 79.0s, moved the end",
+      "Promo 2 \"Book Destruction\" (B074->B084): too short (16.7s, need at least 20s) -> auto-extended by code: model picked 16.7s, moved the start",
+      "Moment 3 (B077->B078): 2.5s -> 5.8s by code"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Dungeon Branding",
+          "start_block": "B005",
+          "end_block": "B048",
+          "hook": "Catherine enters the dungeon with a glowing red-hot iron and calls Juliana a disgrace.",
+          "cliffhanger": "Juliana stares into the fire and declares she chose love.",
+          "why": "It establishes the villain's cruelty immediately and sets up a high-stakes emotional conflict between the two women.",
+          "context_gap": "A stranger wouldn't know that Juliana is the new Duchess or that Catherine is her sister-in-law."
+        },
+        {
+          "title": "Book Destruction",
+          "start_block": "B074",
+          "end_block": "B084",
+          "hook": "Catherine holds the burning botanical book right in Juliana's face.",
+          "cliffhanger": "Catherine threatens that one flame will turn her mother's life's work to ash.",
+          "why": "It creates a visceral sense of loss and desperation, driving the viewer to see Juliana's reaction.",
+          "context_gap": "A stranger wouldn't know that the book belongs to Juliana's late mother."
+        },
+        {
+          "title": "Powerless Queen",
+          "start_block": "B043",
+          "end_block": "B056",
+          "hook": "Juliana sits calmly in chains and tells Catherine that cruelty doesn't make her better.",
+          "cliffhanger": "Juliana asks why Catherine is so desperate to make her kneel.",
+          "why": "It highlights Juliana's unbreakable spirit and forces the villain to snap, raising the tension.",
+          "context_gap": "A stranger wouldn't know that Juliana is the heiress or that she is married to a powerful Duke."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B023",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "Juliana declares she became a disgrace when she refused to become cruel."
+        },
+        {
+          "start_block": "B048",
+          "end_block": "B049",
+          "kind": "cliffhanger",
+          "description": "Juliana looks up and says she calls it love.",
+          "context_gap": "A stranger wouldn't know who she is talking about."
+        },
+        {
+          "start_block": "B077",
+          "end_block": "B078",
+          "kind": "emotional",
+          "description": "Juliana reaches for her mother's book but is restrained by chains.",
+          "context_gap": "A stranger wouldn't know the book is a memento of her mother."
+        },
+        {
+          "start_block": "B086",
+          "end_block": "B087",
+          "kind": "cliffhanger",
+          "description": "The red-hot iron stops inches from Juliana's face.",
+          "context_gap": "A stranger wouldn't know if she will be burned or rescued."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 32,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Burn the Ledger\" (B012->B024): too short (16.8s, need at least 20s) -> auto-extended by code: model picked 16.8s, moved the start",
+      "Promo 2 \"My Husband\" (B060->B068): too short (15.1s, need at least 20s) -> auto-extended by code: model picked 15.1s, moved the end",
+      "Promo 3 \"You Have Nothing\" (B084->B091): too short (12.4s, need at least 20s) -> auto-extended by code: model picked 12.4s, moved the end"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Burn the Ledger",
+          "start_block": "B012",
+          "end_block": "B024",
+          "hook": "Close-up of Juliana's trembling lips as Catherine commands, 'Say goodbye to your mother.'",
+          "cliffhanger": "Juliana stares up at Catherine with cold conviction and commands, 'Burn it.'",
+          "why": "It establishes the high stakes immediately and features a powerful, defiant reversal of power.",
+          "context_gap": "A stranger would not know that the book belongs to Juliana's late mother or that Catherine is threatening to destroy it."
+        },
+        {
+          "title": "My Husband",
+          "start_block": "B060",
+          "end_block": "B068",
+          "hook": "Catherine sneers, 'Your soldier?'",
+          "cliffhanger": "Juliana looks up with eyes glowing with devotion and declares, 'My husband.'",
+          "why": "It creates a sharp contrast between the villain's disdain and the heroine's unwavering love, raising the emotional stakes.",
+          "context_gap": "A stranger would not know that Juliana is married to the mysterious, scarred Duke Alexander."
+        },
+        {
+          "title": "You Have Nothing",
+          "start_block": "B084",
+          "end_block": "B091",
+          "hook": "Juliana gently states, 'Nothing. Until you have nothing left beneath it.'",
+          "cliffhanger": "Catherine snaps entirely, screaming, 'Silence! Silence!'",
+          "why": "It is the climax of Juliana's verbal dismantling of Catherine's ego, leading to a shocking, violent outburst.",
+          "context_gap": "A stranger would not understand the depth of the psychological warfare or that Catherine is moments away from physical violence."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "Catherine is confused when Juliana defiantly commands, 'Burn the ledger.'"
+        },
+        {
+          "start_block": "B041",
+          "end_block": "B045",
+          "kind": "cliffhanger",
+          "description": "Catherine screams, 'You are lying!' and brandishes the glowing tong in Juliana's face."
+        },
+        {
+          "start_block": "B062",
+          "end_block": "B066",
+          "kind": "reveal",
+          "description": "Juliana declares, 'My husband,' and Catherine responds, 'He is a nobody.'"
+        },
+        {
+          "start_block": "B116",
+          "end_block": "B117",
+          "kind": "cliffhanger",
+          "description": "Catherine plunges the glowing iron toward Juliana's face, stopping inches from her eye."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 33,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Brother in Gaol\" (B038->B047): too short (18.3s, need at least 20s) -> auto-extended by code: model picked 18.3s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Brother in Gaol",
+          "start_block": "B038",
+          "end_block": "B047",
+          "hook": "Your brother is still a pauper. One word from me, and the county gaol will take him before sunrise.",
+          "cliffhanger": "The maid gasps in sheer terror, her chest heaving as tears stream.",
+          "why": "A direct threat to a child creates immediate high stakes and moral horror.",
+          "context_gap": "A stranger won't know who the maid is or why she is being threatened."
+        },
+        {
+          "title": "Witchcraft Trap",
+          "start_block": "B058",
+          "end_block": "B075",
+          "hook": "And she opened her mother's book... and spoke words you could not understand.",
+          "cliffhanger": "That is witchcraft.",
+          "why": "It frames a medical act as a crime, setting up a false accusation.",
+          "context_gap": "The viewer won't know that Juliana was actually healing the boy."
+        },
+        {
+          "title": "Forced Testimony",
+          "start_block": "B076",
+          "end_block": "B089",
+          "hook": "No! She saved Toby! She made him breathe again!",
+          "cliffhanger": "I have already written the story for you.",
+          "why": "The conflict is clear: the victim is being framed by a powerful villain.",
+          "context_gap": "The viewer doesn't know who Toby is or that he is Juliana's brother."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "The maid defends Juliana, claiming she watched her save the boy."
+        },
+        {
+          "start_block": "B029",
+          "end_block": "B032",
+          "kind": "reveal",
+          "description": "The Lord asks if Juliana used a forbidden book and the maid admits it."
+        },
+        {
+          "start_block": "B041",
+          "end_block": "B043",
+          "kind": "cliffhanger",
+          "description": "The maid begs for her brother's life, revealing he is only seven years old."
+        },
+        {
+          "start_block": "B094",
+          "end_block": "B097",
+          "kind": "cliffhanger",
+          "description": "The maid collapses in despair, and the Lord coldly dismisses her tears."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 34,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Defiant in the Dock\" (B012->B047): too long (65.8s, max 60s) -> auto-trimmed by code: model picked 65.8s, moved the start",
+      "Moment 2 (B048->B050): 2.4s -> 5.5s by code"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Defiant in the Dock",
+          "start_block": "B012",
+          "end_block": "B047",
+          "hook": "Judge: 'Do you deny using its remedies?' Lady Juliana: 'No.'",
+          "cliffhanger": "Lord: 'Your Honor... the witness has confirmed the ritual.'",
+          "why": "It establishes the high stakes immediately with a direct accusation and a shocking confirmation of guilt from a trusted witness.",
+          "context_gap": "A stranger would not know that the 'ritual' is actually herbal medicine, or that the witness is being coerced."
+        },
+        {
+          "title": "The Witch Trial",
+          "start_block": "B080",
+          "end_block": "B111",
+          "hook": "Judge: 'You admit you administered them?' Lady Juliana: 'Yes.'",
+          "cliffhanger": "Judge: 'Enough!'",
+          "why": "The clip builds tension as Juliana admits to healing people, only for the judge to abruptly silence her, cutting to the judgment.",
+          "context_gap": "A stranger would not understand why healing the sick is considered a crime or who the Lord is in relation to Juliana."
+        },
+        {
+          "title": "Silenced by the Law",
+          "start_block": "B091",
+          "end_block": "B116",
+          "hook": "Judge: 'Lady Juliana, if you wish to save yourself, renounce these practices.'",
+          "cliffhanger": "Judge: 'Lady Juliana Ashcroft...' [The Judge rises to deliver the judgment]",
+          "why": "It presents a life-or-death ultimatum that Juliana refuses to accept, ending right before the verdict is read.",
+          "context_gap": "A stranger would not know that Juliana is facing execution or that the 'practices' are her mother's herbal remedies."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "Judge commands Prudence to testify, and the terrified young maid stands trembling in the center of the courtroom."
+        },
+        {
+          "start_block": "B048",
+          "end_block": "B050",
+          "kind": "cliffhanger",
+          "description": "Lady Juliana slams her cuffed hands against the wooden railing of the dock, her voice ringing out in indignant fury."
+        },
+        {
+          "start_block": "B081",
+          "end_block": "B085",
+          "kind": "reveal",
+          "description": "Lady Juliana directly admits to administering the herbal mixtures, explaining there was no physician willing to help."
+        },
+        {
+          "start_block": "B094",
+          "end_block": "B096",
+          "kind": "cliffhanger",
+          "description": "Lady Juliana unflinchingly refuses to renounce her practices, and the Judge lowers his brow with dark finality."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 35,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Mother Reunites\" (B012->B047): too long (84.7s, max 60s) -> auto-trimmed by code: model picked 84.7s, moved the start",
+      "Promo 2 \"The Ambush\" (B036->B067): too long (65.0s, max 60s) -> auto-trimmed by code: model picked 65.0s, moved the start",
+      "Promo 3 \"The Traitor\" (B068->B072): too short (13.5s, need at least 20s) -> auto-extended by code: model picked 13.5s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Mother Reunites",
+          "start_block": "B012",
+          "end_block": "B047",
+          "hook": "An elderly hooded woman whispers, 'This must be the place,' before pushing open a cabin door to find a scarred man standing over a map.",
+          "cliffhanger": "Alexander's mother stares at him in disbelief, asking, 'Then why did they never tell us?'",
+          "why": "It immediately establishes the mystery of Alexander's survival and the deception surrounding his death.",
+          "context_gap": "A stranger would not know that Alexander is a presumed-dead Duke or that his mother has just escaped imprisonment."
+        },
+        {
+          "title": "The Ambush",
+          "start_block": "B036",
+          "end_block": "B067",
+          "hook": "Alexander solemnly recounts, 'Three years ago, I was sent to the Iberian front,' as he points to a red circle on a map.",
+          "cliffhanger": "Alexander furiously declares, 'The ambush was not an accident. Someone ordered my men to die.'",
+          "why": "It reveals the central conspiracy and shifts the tone from a reunion to a deadly revenge plot.",
+          "context_gap": "A stranger would not understand that Alexander is investigating a traitor or that he is now a target."
+        },
+        {
+          "title": "The Traitor",
+          "start_block": "B068",
+          "end_block": "B072",
+          "hook": "Alexander's mother gasps in terror, asking, 'Who?' as he turns to face her with a deadly chill.",
+          "cliffhanger": "Alexander whispers, 'The men behind it... are the same men ruling Ashwood now,' as the camera holds on his mother's horrified face.",
+          "why": "It delivers a shocking political revelation that implicates the current rulers in a massacre.",
+          "context_gap": "A stranger would not know who 'Ashwood' is or that Alexander's mother is currently in grave danger."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "Alexander's mother drops her staff and rushes to embrace her presumed-dead son."
+        },
+        {
+          "start_block": "B027",
+          "end_block": "B028",
+          "kind": "emotional",
+          "description": "Alexander's mother tearfully confesses, 'I buried you,' and he replies, 'I know.'"
+        },
+        {
+          "start_block": "B050",
+          "end_block": "B054",
+          "kind": "reveal",
+          "description": "Alexander reveals he was shot and left for dead, crawling away from the battlefield."
+        },
+        {
+          "start_block": "B069",
+          "end_block": "B072",
+          "kind": "cliffhanger",
+          "description": "Alexander identifies the traitors as the men currently ruling Ashwood, leaving his mother horrified."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 36,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Dead Duke Returns\" (B012->B050): too long (63.2s, max 60s) -> auto-trimmed by code: model picked 63.2s, moved the start",
+      "Promo 2 \"Witch Hunt\" (B074->B082): too short (15.7s, need at least 20s) -> auto-extended by code: model picked 15.7s, moved the start",
+      "Promo 3 \"Wedding and Execution\" (B086->B096): too short (17.5s, need at least 20s) -> auto-extended by code: model picked 17.5s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Dead Duke Returns",
+          "start_block": "B012",
+          "end_block": "B050",
+          "hook": "Alexander stands upright opposite his mother across the lantern-lit map.",
+          "cliffhanger": "Alexander's Mother (Hesitant, Trembling): 'She did come to me.'",
+          "why": "It establishes the villainous betrayal of Sterling and Rupert immediately and pivots to the central threat of Juliana's arrest.",
+          "context_gap": "A stranger would not know that Sterling and Rupert are the villains, or that Juliana is Alexander's wife."
+        },
+        {
+          "title": "Witch Hunt",
+          "start_block": "B074",
+          "end_block": "B082",
+          "hook": "Alexander's Mother (Agonized): 'They called her a witch!'",
+          "cliffhanger": "Alexander's Mother (Weeping): 'They condemned her.'",
+          "why": "It delivers a shocking escalation from accusation to execution and highlights the cruel injustice Juliana faces.",
+          "context_gap": "A stranger would not understand that Juliana is innocent or that she is being sentenced to death."
+        },
+        {
+          "title": "Wedding and Execution",
+          "start_block": "B086",
+          "end_block": "B096",
+          "hook": "Alexander (Guttural, Demanding): 'When?'",
+          "cliffhanger": "Alexander's Mother (Deadly Serious): 'Two days from now.'",
+          "why": "It creates a ticking clock by revealing the wedding date and Juliana's execution date are the same, driving the urgency.",
+          "context_gap": "A stranger would not know that Rupert and Catherine are the ones marrying, or that Juliana is the intended victim."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "Alexander (Spitting with Contempt): 'They wanted the investigation buried.'"
+        },
+        {
+          "start_block": "B062",
+          "end_block": "B066",
+          "kind": "cliffhanger",
+          "description": "Alexander's Mother (Wailing): 'They arrested her!' Alexander's Mother (Despairing): 'Rupert and Catherine accused her of poisoning me!'"
+        },
+        {
+          "start_block": "B085",
+          "end_block": "B089",
+          "kind": "cliffhanger",
+          "description": "Alexander's Mother (Solemn, Shattered): 'She is to be executed.' Alexander's Mother (Trembling): 'After the wedding.'"
+        },
+        {
+          "start_block": "B119",
+          "end_block": "B121",
+          "kind": "cliffhanger",
+          "description": "Alexander (Cold, Thunderous Finale): '...their dead Duke is coming home.'"
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 37,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Wedding and Execution\" (B003->B047): too long (82.5s, max 60s) -> auto-trimmed by code: model picked 82.5s, moved the end"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Wedding and Execution",
+          "start_block": "B003",
+          "end_block": "B047",
+          "hook": "Rupert and Catherine discuss the wedding and the execution of Juliana.",
+          "cliffhanger": "Clarissa declares Juliana's ruin will be a lesson to every woman who thinks she can rise above her place.",
+          "why": "It establishes the dual threat of the wedding and the public execution, creating high stakes and immediate conflict.",
+          "context_gap": "A stranger might not know who Juliana is or why she is being executed, only that she is a woman defying her station."
+        },
+        {
+          "title": "The Warning",
+          "start_block": "B030",
+          "end_block": "B047",
+          "hook": "Clarissa reads the invitation and reveals the sentencing of the condemned.",
+          "cliffhanger": "Clarissa states that the execution is not just a punishment, but a warning to every woman who thinks she can rise above her place.",
+          "why": "The reveal of the public execution clause combined with the villain's explicit motivation creates a compelling narrative hook.",
+          "context_gap": "The viewer would not know that Clarissa is Juliana's sister or that she is part of the conspiracy."
+        },
+        {
+          "title": "Defiance in the Dungeon",
+          "start_block": "B049",
+          "end_block": "B063",
+          "hook": "Juliana sits in a dungeon, refusing to eat the food offered to her.",
+          "cliffhanger": "Juliana grips the iron ring in the dungeon pillar, declaring that they cannot take who she is.",
+          "why": "It contrasts the villain's cruelty with the hero's unbreakable spirit, setting up a classic underdog narrative.",
+          "context_gap": "A stranger would not understand that Juliana is being starved to break her spirit or that she is the protagonist."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B012",
+          "end_block": "B014",
+          "kind": "hook",
+          "description": "Rupert and Catherine plot their wedding and the public execution of Juliana."
+        },
+        {
+          "start_block": "B030",
+          "end_block": "B032",
+          "kind": "reveal",
+          "description": "Clarissa reads the invitation and reveals the sentencing of the condemned."
+        },
+        {
+          "start_block": "B049",
+          "end_block": "B052",
+          "kind": "cliffhanger",
+          "description": "Juliana refuses to eat the food in her dungeon cell."
+        },
+        {
+          "start_block": "B061",
+          "end_block": "B063",
+          "kind": "cliffhanger",
+          "description": "Juliana grips the iron ring in the dungeon pillar, vowing to keep her identity."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 38,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Dungeon Bread & Wedding Bells\" (B012->B047): too long (70.4s, max 60s) -> auto-trimmed by code: model picked 70.4s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Dungeon Bread & Wedding Bells",
+          "start_block": "B012",
+          "end_block": "B047",
+          "hook": "A compassionate guard whispers to a starving Juliana that no one should die hungry before slipping her bread through the bars.",
+          "cliffhanger": "Juliana realizes the distant tolling bells are for Rupert's wedding and whispers, 'Then I suppose I'm next,' as she grips the iron bars.",
+          "why": "It combines a high-stakes emotional beat (starvation) with a ticking clock (execution) and a shocking juxtaposition (wedding vs. execution).",
+          "context_gap": "A stranger won't know that Rupert and Catherine are forcing Juliana's execution to coincide with their own wedding."
+        },
+        {
+          "title": "I Will Not Give Them My Husband",
+          "start_block": "B036",
+          "end_block": "B052",
+          "hook": "Juliana kneels in the dungeon, her posture transforming into quiet dignity as she vows, 'I will not give them my husband.'",
+          "cliffhanger": "She realizes the wedding bells are tolling above and grimly concludes, 'Then I suppose I'm next,' as she stares down the corridor.",
+          "why": "It features a powerful, defiant monologue that establishes the protagonist's strength and immediately raises the stakes with the impending wedding.",
+          "context_gap": "A stranger won't understand that Rupert and Catherine are forcing Juliana's execution to coincide with their own wedding."
+        },
+        {
+          "title": "Are You Safe?",
+          "start_block": "B024",
+          "end_block": "B056",
+          "hook": "Juliana clutches a half-eaten loaf of bread in the freezing dungeon and looks up at the skylight, asking, 'Are you safe?'",
+          "cliffhanger": "She hears the wedding bells and whispers Alexander's name with a brave smile, right before the scene cuts to black.",
+          "why": "It creates a heartbreaking emotional connection between the separated couple and ends on a suspenseful cliffhanger that demands to be resolved.",
+          "context_gap": "A stranger won't know that Alexander is presumed dead and that Rupert and Catherine are forcing Juliana's execution to coincide with their own wedding."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B012",
+          "end_block": "B014",
+          "kind": "hook",
+          "description": "A compassionate guard whispers to a starving Juliana that no one should die hungry before slipping her bread through the bars."
+        },
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "emotional",
+          "description": "Starving and overcome with emotion, Juliana presses the bread to her lips and tears off a desperate, ravenous bite."
+        },
+        {
+          "start_block": "B036",
+          "end_block": "B041",
+          "kind": "cliffhanger",
+          "description": "Juliana vows, 'I will not give them my husband,' and declares she will not betray him, her eyes flashing with fierce loyalty."
+        },
+        {
+          "start_block": "B047",
+          "end_block": "B052",
+          "kind": "cliffhanger",
+          "description": "Juliana realizes the wedding bells are tolling and grimly concludes, 'Then I suppose I'm next,' as she stares down the corridor."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 39,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Moment 3 (B031->B032): 2.8s -> 5.8s by code"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "The Duke Returns",
+          "start_block": "B012",
+          "end_block": "B028",
+          "hook": "A scout whispers, 'Six at the front,' while a fighter replies, 'Four more inside,' as they watch the cathedral.",
+          "cliffhanger": "Royal guards lie unconscious on the steps as the cart driver tells the fighter, 'The road is clear.'",
+          "why": "High tension and action immediately establish the threat to the wedding and the rescue mission.",
+          "context_gap": "Strangers won't know the Duke is returning to reclaim his house or that the guards are being neutralized."
+        },
+        {
+          "title": "Reclaiming His House",
+          "start_block": "B031",
+          "end_block": "B058",
+          "hook": "Alexander stares at his rugged reflection in a mirror, tracing a scar, and declares, 'They buried Alexander Ashwin three years ago. Today, he comes home.'",
+          "cliffhanger": "Alexander vows, 'And I am bringing my wife home,' as his eyes burn with furious determination.",
+          "why": "The reveal of the Duke's identity and his vow to rescue his wife creates a powerful emotional hook.",
+          "context_gap": "Viewers need to know he is the exiled Duke and that his wife is in danger to understand the stakes."
+        },
+        {
+          "title": "March to War",
+          "start_block": "B044",
+          "end_block": "B058",
+          "hook": "Alexander steps out of the barn doors in full ducal regalia, and a loyalist soldier drops to his knee, saying, 'Your Grace.'",
+          "cliffhanger": "Alexander commands, 'Secure the chapel,' and vows, 'I am taking back my house,' as he marches forward.",
+          "why": "The visual transformation into the Duke and the command to secure the chapel sets up a high-stakes confrontation.",
+          "context_gap": "Audiences must understand he is shedding his disguise and that the chapel is the target."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "The cart driver lunges at a royal sentry, tackling him violently against the carriage wheel."
+        },
+        {
+          "start_block": "B026",
+          "end_block": "B028",
+          "kind": "cliffhanger",
+          "description": "The loyalist fighter whispers, 'Sleep,' as the sentry goes limp in his sleeper hold."
+        },
+        {
+          "start_block": "B031",
+          "end_block": "B032",
+          "kind": "reveal",
+          "description": "Alexander stares at his rugged reflection in a cracked mirror, tracing a scar."
+        },
+        {
+          "start_block": "B047",
+          "end_block": "B048",
+          "kind": "reveal",
+          "description": "A loyalist soldier drops to his knee before Alexander, calling him 'Your Grace.'"
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 40,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Wedding & Execution\" (B012->B050): too long (87.1s, max 60s) -> auto-trimmed by code: model picked 87.1s, moved the end",
+      "Promo 2 \"The Witch Will Die\" (B032->B038): too short (14.7s, need at least 20s) -> auto-extended by code: model picked 14.7s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Wedding & Execution",
+          "start_block": "B012",
+          "end_block": "B050",
+          "hook": "Lady Harrington taunts, 'Imagine Juliana seeing this,' while Lord Harrington coldly replies, 'She won't be seeing anything for long.'",
+          "cliffhanger": "Catherine and Rupert exchange triumphant smiles at the altar, sealing their union.",
+          "why": "It juxtaposes the villain's wedding celebration with the victim's impending death, creating immediate high stakes.",
+          "context_gap": "A stranger would not know that Juliana is the victim being executed, or that Catherine is the bride."
+        },
+        {
+          "title": "The Witch Will Die",
+          "start_block": "B032",
+          "end_block": "B038",
+          "hook": "An elder nobleman demands, 'All entrances are covered?' and the guard replies, 'Every one, my Lord,' before the nobleman declares, 'And its witch will be dead.'",
+          "cliffhanger": "The nobleman's sinister smile spreads across his face as he vows to kill the witch by sunset.",
+          "why": "It establishes a ticking clock and a specific threat against a character, raising the tension instantly.",
+          "context_gap": "A stranger would not know who the 'witch' is or that the wedding is a trap."
+        },
+        {
+          "title": "Queen or Bride?",
+          "start_block": "B040",
+          "end_block": "B048",
+          "hook": "The cathedral doors swing open flooding the nave with light as Rupert turns in awe, and Catherine steps forward in a breathtaking gown.",
+          "cliffhanger": "Rupert takes Catherine's hands and flatters her, 'You look more queen than bride,' as they gaze into each other's eyes.",
+          "why": "It captures the grandeur of the wedding and the couple's vanity, masking the sinister plot unfolding around them.",
+          "context_gap": "A stranger would not know that Catherine and Rupert are conspirators plotting Juliana's demise."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B012",
+          "end_block": "B015",
+          "kind": "hook",
+          "description": "Lady Harrington taunts Lord Harrington about Juliana seeing the wedding, and he coldly replies she won't see anything for long."
+        },
+        {
+          "start_block": "B032",
+          "end_block": "B034",
+          "kind": "hook",
+          "description": "An elder nobleman demands the entrances to the cathedral are covered, and the Royal Guard confirms they are sealed."
+        },
+        {
+          "start_block": "B045",
+          "end_block": "B048",
+          "kind": "reveal",
+          "description": "Lady Harrington whispers in awe that Catherine looks like a queen, while Rupert takes her hands at the altar."
+        },
+        {
+          "start_block": "B038",
+          "end_block": "B041",
+          "kind": "cliffhanger",
+          "description": "The elder nobleman vows the 'witch' will be dead by sunset, as the cathedral doors open and light floods the nave."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 41,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 2 \"The Wedding Interrupted\" (B044->B047): too short (8.0s, need at least 20s) -> auto-extended by code: model picked 8.0s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Public Humiliation",
+          "start_block": "B002",
+          "end_block": "B028",
+          "hook": "Catherine abruptly pulls away from Rupert and raises her white-gloved hand high, commanding silence from the congregation.",
+          "cliffhanger": "This is the world you thought you belonged to.",
+          "why": "It establishes the villain's cruelty immediately and sets up a high-stakes confrontation.",
+          "context_gap": "A stranger would not know that Juliana is the bride being humiliated or that Catherine is the antagonist."
+        },
+        {
+          "title": "The Wedding Interrupted",
+          "start_block": "B044",
+          "end_block": "B047",
+          "hook": "The elderly Priest opens the leather-bound liturgical book between Rupert and Catherine.",
+          "cliffhanger": "Ear-splitting detonation, shattering stone, wood splintering violently into kindling, followed by terrified screams of the congregation.",
+          "why": "It creates a classic action-movie setup where a wedding is violently crashed.",
+          "context_gap": "A stranger would not know that the explosion is Alexander's revenge or that Juliana is the target."
+        },
+        {
+          "title": "Defiant Bride",
+          "start_block": "B025",
+          "end_block": "B034",
+          "hook": "Close profile of Juliana as she halts in the center aisle, lifting her chin proudly to face the sneering onlookers.",
+          "cliffhanger": "You needed an entire chapel to feel powerful over one chained woman?",
+          "why": "It highlights the heroine's strength and defiance against overwhelming odds.",
+          "context_gap": "A stranger would not know that Juliana is the bride being paraded in chains or that Catherine is her enemy."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "A noblewoman whispers that Juliana has returned to the chapel, but not as a bride."
+        },
+        {
+          "start_block": "B014",
+          "end_block": "B015",
+          "kind": "reveal",
+          "description": "Extreme close-up of Juliana's scarred, dirtied wrists bound tight in heavy iron shackles."
+        },
+        {
+          "start_block": "B047",
+          "end_block": "B048",
+          "kind": "cliffhanger",
+          "description": "The cathedral entrance explodes, sending debris and terrified screams through the congregation."
+        },
+        {
+          "start_block": "B052",
+          "end_block": "B053",
+          "kind": "emotional",
+          "description": "Silhouetted armed figures emerge through the smoke and rubble, and Juliana turns her head toward the light."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 42,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 3 \"Final Threat\" (B033->B037): too short (13.8s, need at least 20s) -> auto-extended by code: model picked 13.8s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Duke Returns",
+          "start_block": "B001",
+          "end_block": "B012",
+          "hook": "Boots step over rubble in a ruined cathedral as Alexander strides through the smoke in full ducal regalia.",
+          "cliffhanger": "Rupert screams, 'Guards! Arrest this imposter!' but the Royal Guard replies, 'We will not.'",
+          "why": "The visual of the ruined wedding and the immediate conflict between the villain and the loyal guard creates instant tension.",
+          "context_gap": "A stranger might not know Rupert is the imposter or that the guards have switched sides."
+        },
+        {
+          "title": "Mother's Reveal",
+          "start_block": "B025",
+          "end_block": "B034",
+          "hook": "Alexander's mother steps into the aisle, trembling with tears, and calls out his name.",
+          "cliffhanger": "The mother declares to the crowd, 'This is my son... Alexander Ashburn. The rightful Duke of Ashburn!'",
+          "why": "The emotional reunion combined with the public proclamation of identity provides a powerful climax to the episode's conflict.",
+          "context_gap": "Viewers need to know Alexander was exiled and that his mother is the key to proving his identity."
+        },
+        {
+          "title": "Final Threat",
+          "start_block": "B033",
+          "end_block": "B037",
+          "hook": "Alexander's mother points proudly toward Alexander as he stands amidst the ruins.",
+          "cliffhanger": "Alexander grips his sabre and vows, 'And now, Rupert... we settle what you stole.'",
+          "why": "This is the episode's ultimate payoff, moving from emotional vindication to cold, calculated retribution.",
+          "context_gap": "A stranger might not know Rupert stole Alexander's title or that Alexander is a vengeful figure."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B012",
+          "end_block": "B017",
+          "kind": "hook",
+          "description": "Royal Guard refuses to arrest Alexander, declaring he knows who the Duke is."
+        },
+        {
+          "start_block": "B021",
+          "end_block": "B023",
+          "kind": "reveal",
+          "description": "Rupert denies Alexander's identity, claiming he died, while Alexander counters that he stands before them."
+        },
+        {
+          "start_block": "B026",
+          "end_block": "B028",
+          "kind": "emotional",
+          "description": "Alexander's mother gently cradles his scarred cheek, weeping with joy."
+        },
+        {
+          "start_block": "B035",
+          "end_block": "B037",
+          "kind": "cliffhanger",
+          "description": "Alexander threatens Rupert with his sword, vowing to settle the score."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 43,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Guard Refuses to Arrest\" (B012->B019): too short (8.3s, need at least 20s) -> auto-extended by code: model picked 8.3s, moved the start",
+      "Promo 3 \"Escape Blocked\" (B080->B086): too short (9.4s, need at least 20s) -> auto-extended by code: model picked 9.4s, moved the start",
+      "Moment 2 (B026->B027): 2.0s -> 6.5s by code"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Guard Refuses to Arrest",
+          "start_block": "B012",
+          "end_block": "B019",
+          "hook": "Royal Guard Captain stands firm and refuses Rupert's order to arrest Alexander, declaring him the true Duke.",
+          "cliffhanger": "The Captain snaps a crisp salute toward Alexander, confirming he is the Duke.",
+          "why": "The visual of a guard disobeying a nobleman in a church creates instant tension and establishes Alexander's power.",
+          "context_gap": "A stranger would not know Rupert is the groom or that Alexander is the groom's rival."
+        },
+        {
+          "title": "Treason Exposed",
+          "start_block": "B026",
+          "end_block": "B053",
+          "hook": "Alexander reveals a War Office dossier stamped 'TOP SECRET' and the Crown Official begins reading the names of the conspirators.",
+          "cliffhanger": "The Crown Official names Lord Henry Sterling and Rupert Ashburn as the traitors.",
+          "why": "The reveal of official documents and the specific naming of villains provides a satisfying payoff to the episode's conflict.",
+          "context_gap": "A stranger would not know Rupert and Sterling are the villains plotting against Alexander."
+        },
+        {
+          "title": "Escape Blocked",
+          "start_block": "B080",
+          "end_block": "B086",
+          "hook": "Lord Sterling tries to flee the ruined cathedral but is blocked by a stern British Police Constable standing outside the door.",
+          "cliffhanger": "The Police Constable asks, 'Going somewhere, Lord Sterling?' as Sterling's escape is cut off.",
+          "why": "The visual of a villain trying to run away and getting caught by police creates a classic cliffhanger moment.",
+          "context_gap": "A stranger would not know Sterling is a traitor or that the police are intervening."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B012",
+          "end_block": "B013",
+          "kind": "hook",
+          "description": "Royal Guard Captain refuses Rupert's order and points his sword at him."
+        },
+        {
+          "start_block": "B026",
+          "end_block": "B027",
+          "kind": "reveal",
+          "description": "Alexander reveals a War Office dossier stamped 'TOP SECRET'."
+        },
+        {
+          "start_block": "B047",
+          "end_block": "B048",
+          "kind": "cliffhanger",
+          "description": "Alexander steps forward and demands the Crown Official read the names."
+        },
+        {
+          "start_block": "B085",
+          "end_block": "B086",
+          "kind": "cliffhanger",
+          "description": "Police Constable blocks Lord Sterling's escape at the cathedral door."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 44,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 2 \"Never My Duchess\" (B035->B041): too short (9.2s, need at least 20s) -> auto-extended by code: model picked 9.2s, moved the start",
+      "Promo 3 \"The Wrong Bride\" (B049->B054): too short (5.5s, need at least 20s) -> auto-extended by code: model picked 5.5s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "She Begs, He Rejects",
+          "start_block": "B014",
+          "end_block": "B047",
+          "hook": "Catherine stands in her bridal veil, tears streaming down her face, pleading with Alexander to remember their past love.",
+          "cliffhanger": "Alexander tilts his head, his gaze piercing through her as he skeptically asks, 'Did you?'",
+          "why": "The visual of the rejected ex-bride and the cold, cutting question creates high emotional stakes and immediate curiosity about Juliana.",
+          "context_gap": "A stranger would not know that Catherine is the villainess who betrayed Juliana, or that Alexander is now the rightful Duke."
+        },
+        {
+          "title": "Never My Duchess",
+          "start_block": "B035",
+          "end_block": "B041",
+          "hook": "Catherine screams that she was supposed to be his Duchess, but Alexander coldly cuts her down.",
+          "cliffhanger": "Alexander looks at her with scorn, biting, 'You loved the Duke you thought you would marry.'",
+          "why": "The sharp rejection of the villain's delusion provides a satisfying payoff and sets up the hero's devotion to the true heroine.",
+          "context_gap": "A stranger would not understand the history of the characters' relationship or the specific nature of the betrayal."
+        },
+        {
+          "title": "The Wrong Bride",
+          "start_block": "B049",
+          "end_block": "B054",
+          "hook": "The camera tilts up from heavy iron chains to Juliana's shackled wrists, revealing the true bride waiting in the shadows.",
+          "cliffhanger": "Catherine gasps in horror and disbelief, 'Her?!'",
+          "why": "The reveal of the chained heroine and the villainess's shocked reaction creates a powerful visual contrast and a strong cliffhanger.",
+          "context_gap": "A stranger would not know that Juliana is the heroine who was humiliated by Catherine, or that she is still in chains."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "emotional",
+          "description": "Catherine weeps and trembles, confessing that she waited three years believing Alexander was dead."
+        },
+        {
+          "start_block": "B031",
+          "end_block": "B032",
+          "kind": "reveal",
+          "description": "Alexander abruptly pulls his face away from Catherine's touch, leaving her hand suspended in mid-air."
+        },
+        {
+          "start_block": "B037",
+          "end_block": "B038",
+          "kind": "cliffhanger",
+          "description": "Alexander delivers the cold line, 'You were never my Duchess,' as Catherine breaks down in tears."
+        },
+        {
+          "start_block": "B049",
+          "end_block": "B051",
+          "kind": "reveal",
+          "description": "The camera tilts up from the floor to reveal Juliana's shackled wrists, showing the true bride waiting."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 45,
+    "proposed_promos": 1,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"Duke's Vow to Wife\" (B004->B070): too long (110.4s, max 60s) -> auto-trimmed by code: model picked 110.4s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Duke's Vow to Wife",
+          "start_block": "B004",
+          "end_block": "B070",
+          "hook": "Juliana whispers Alexander's name in tears as he kneels to free her",
+          "cliffhanger": "the High Priest declares their marriage legally invalid before the congregation",
+          "why": "high emotional stakes with a shocking legal twist that threatens the couple's future",
+          "context_gap": "stranger would not know who the High Priest is or why he matters"
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "reveal",
+          "description": "Juliana gasps in awe as Alexander reveals his identity as the Duke"
+        },
+        {
+          "start_block": "B040",
+          "end_block": "B043",
+          "kind": "cliffhanger",
+          "description": "Alexander accuses Catherine of poisoning his mother as she gasps in denial"
+        },
+        {
+          "start_block": "B053",
+          "end_block": "B056",
+          "kind": "hook",
+          "description": "Alexander proclaims Juliana Duchess of Ashburton as Rupert stares in horror"
+        },
+        {
+          "start_block": "B073",
+          "end_block": "B074",
+          "kind": "cliffhanger",
+          "description": "Catherine's despair morphs into a triumphant smirk as the episode ends"
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 46,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Sanctuary Seized",
+          "start_block": "B007",
+          "end_block": "B018",
+          "hook": "By Royal command, this sanctuary is placed under immediate Crown seizure.",
+          "cliffhanger": "The marriage does not rise with him.",
+          "why": "The High Priest immediately invalidates their marriage in front of the congregation, creating instant conflict.",
+          "context_gap": "A stranger would not know that Alexander was previously thought dead or that this is a 'hedge ceremony'."
+        },
+        {
+          "title": "Paper vs. Love",
+          "start_block": "B031",
+          "end_block": "B047",
+          "hook": "And no clerk in London ever entered your name in the Royal register, because as far as the Crown knew, Alexander Ashburton was already dead.",
+          "cliffhanger": "God married us, Father! You are just angry no one asked you first!",
+          "why": "The High Priest reveals the marriage was never recorded, and Juliana counters with a defiant declaration of her love.",
+          "context_gap": "A stranger would not know that Juliana and Alexander married in secret three years ago."
+        },
+        {
+          "title": "Ten Days to Lose Her",
+          "start_block": "B058",
+          "end_block": "B064",
+          "hook": "A Duke's marriage is judged by the Crown's peerage court, not by a parish priest's seal.",
+          "cliffhanger": "Ten days. And if the council rules against you, this county watches you lose her twice.",
+          "why": "Alexander demands a proper trial, but the High Priest threatens to strip them of their status and marriage.",
+          "context_gap": "A stranger would not know that the High Priest is an enemy of the Duke or that their marriage is currently illegal."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B018",
+          "end_block": "B020",
+          "kind": "cliffhanger",
+          "description": "The High Priest declares their marriage invalid as Alexander turns to protect Juliana."
+        },
+        {
+          "start_block": "B038",
+          "end_block": "B040",
+          "kind": "hook",
+          "description": "The High Priest says 'Love doesn't make a Duchess, girl. Paper does.'"
+        },
+        {
+          "start_block": "B046",
+          "end_block": "B047",
+          "kind": "cliffhanger",
+          "description": "Juliana shouts at the priest that God married them, not him."
+        },
+        {
+          "start_block": "B064",
+          "end_block": "B065",
+          "kind": "cliffhanger",
+          "description": "The High Priest threatens that if they lose the trial, the county will watch them lose her twice."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 47,
+    "proposed_promos": 1,
+    "proposed_moments": 0,
+    "length_fixes_by_code": [],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Cruel Offer to Villainess",
+          "start_block": "B026",
+          "end_block": "B053",
+          "hook": "A fallen noblewoman begs for mercy on the muddy courtyard, only for the Duke's wife to offer her a humiliating job as a scullery maid.",
+          "cliffhanger": "Juliana stares unflinchingly at Catherine and declares, 'As a scullery maid.'",
+          "why": "The visual of a fallen villainess kneeling in the mud contrasted with the new Duchess's cold, authoritative offer creates immediate tension and a clear power shift.",
+          "context_gap": "A stranger would not know that Catherine is the villainess who tried to destroy Juliana, nor that Juliana is the new Duchess."
+        }
+      ],
+      "moments": []
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 48,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 2 \"The Door Can Be Closed\" (B012->B014): too short (6.7s, need at least 20s) -> auto-extended by code: model picked 6.7s, moved the start",
+      "Promo 3 \"Everyone Saw Me Humiliated\" (B021->B025): too short (9.0s, need at least 20s) -> auto-extended by code: model picked 9.0s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "Ten Days to Destroy Them",
+          "start_block": "B012",
+          "end_block": "B041",
+          "hook": "Catherine stands in the moonlight, plotting to use the ten-day reprieve to destroy Alexander and Juliana.",
+          "cliffhanger": "Catherine orders Agnes to send for the priest tonight and ensure no one sees him arrive.",
+          "why": "It establishes the villain's cold determination and the ticking clock of the council's trial, creating high tension.",
+          "context_gap": "A stranger would not know that the 'ten days' is a legal reprieve for a marriage trial, or that Catherine is plotting a secret counter-attack."
+        },
+        {
+          "title": "The Door Can Be Closed",
+          "start_block": "B012",
+          "end_block": "B014",
+          "hook": "Catherine stares into the dark window, declaring that ten days is not a wall but a door.",
+          "cliffhanger": "She chillingly adds that doors can be closed from the other side.",
+          "why": "It uses a metaphorical threat to show Catherine's resilience and her intent to strike back at Alexander.",
+          "context_gap": "A stranger would not understand the stakes of the 'ten days' or the specific nature of the threat against the couple."
+        },
+        {
+          "title": "Everyone Saw Me Humiliated",
+          "start_block": "B021",
+          "end_block": "B025",
+          "hook": "Catherine grabs Agnes by the hands, declaring that everyone in the chapel saw her humiliated.",
+          "cliffhanger": "She sinisterly notes that grief makes people careless, and that is exactly what she needs from the household.",
+          "why": "It reveals the villain's twisted mindset and her plan to exploit the couple's grief to strike.",
+          "context_gap": "A stranger would not know that Catherine was publicly humiliated by Juliana or that she plans to use that moment against them."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "hook",
+          "description": "Catherine grabs Agnes by the hands and declares that everyone in the chapel saw her humiliated."
+        },
+        {
+          "start_block": "B026",
+          "end_block": "B028",
+          "kind": "cliffhanger",
+          "description": "Agnes nervously warns Catherine that the Duke has bailiffs watching every road out of the county."
+        },
+        {
+          "start_block": "B038",
+          "end_block": "B041",
+          "kind": "cliffhanger",
+          "description": "Catherine places a heavy velvet coin purse into Agnes's hands and orders her to send for the priest tonight."
+        },
+        {
+          "start_block": "B042",
+          "end_block": "B043",
+          "kind": "cliffhanger",
+          "description": "Agnes stashes the pouch into her apron and hurries out into the darkness."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 49,
+    "proposed_promos": 3,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [
+      "Promo 1 \"A Dangerous Pact\" (B035->B060): too long (65.8s, max 60s) -> auto-trimmed by code: model picked 65.8s, moved the start",
+      "Promo 3 \"Symbolism\" (B023->B029): too short (18.7s, need at least 20s) -> auto-extended by code: model picked 18.7s, moved the start"
+    ],
+    "errors_first_try": [],
+    "repaired": false,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "A Dangerous Pact",
+          "start_block": "B035",
+          "end_block": "B060",
+          "hook": "Catherine demands the hearing be stalled and that Father Thomas spy on the council, warning him to be careful.",
+          "cliffhanger": "Catherine places her hand in Father Thomas's open palm as he offers a quiet, resigned agreement.",
+          "why": "It establishes the high stakes of the treasonous alliance and the lethal consequences of failure.",
+          "context_gap": "A stranger would not know that Catherine is a disgraced noblewoman plotting against the Duke, or that Father Thomas is a corrupt priest."
+        },
+        {
+          "title": "Thorough Secrets",
+          "start_block": "B005",
+          "end_block": "B019",
+          "hook": "Father Thomas complains that Agnes made him wait, and Catherine coldly agrees that thoroughness is what she pays for.",
+          "cliffhanger": "Catherine turns with a knowing smirk as Father Thomas glances down, fixing his gaze back on her.",
+          "why": "The dialogue immediately signals a secret, illicit relationship and a shared history of betrayal.",
+          "context_gap": "A stranger would not know that Catherine is the villain plotting against the new Duchess, or that Father Thomas is her co-conspirator."
+        },
+        {
+          "title": "Symbolism",
+          "start_block": "B023",
+          "end_block": "B029",
+          "hook": "Catherine mocks the Duke by noting that the whole court watched him humiliate her, while Father Thomas finds the setting fitting.",
+          "cliffhanger": "Catherine smiles with amusement as Father Thomas breaks his austere demeanor with a subtle smirk.",
+          "why": "It highlights the villainy of Catherine and the complicity of the church in the Duke's downfall.",
+          "context_gap": "A stranger would not know that Catherine is the ex-fiancée plotting revenge, or that Father Thomas is a corrupt clergyman aiding her."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B020",
+          "end_block": "B024",
+          "kind": "cliffhanger",
+          "description": "Catherine warns Father Thomas that if anyone suspects his face, their alliance is over."
+        },
+        {
+          "start_block": "B031",
+          "end_block": "B033",
+          "kind": "hook",
+          "description": "Catherine demands Father Thomas stall the council hearing and asks what she actually needs from him."
+        },
+        {
+          "start_block": "B044",
+          "end_block": "B046",
+          "kind": "cliffhanger",
+          "description": "Father Thomas warns that if he conspires against the Duke, he will hang when the truth comes out."
+        },
+        {
+          "start_block": "B052",
+          "end_block": "B054",
+          "kind": "reveal",
+          "description": "Catherine promises Father Thomas that a grateful Duchess collects debts differently than a desperate one."
+        }
+      ]
+    },
+    "raw_repair": null
+  },
+  {
+    "episode": 50,
+    "proposed_promos": 2,
+    "proposed_moments": 4,
+    "length_fixes_by_code": [],
+    "errors_first_try": [
+      "- Promo 2 \"Scandal in the Shadows\" (B029->B041): unknown block id(s) B041 (episode has B001-B040)",
+      "- Moment 4 (B036->B041): unknown block id(s) B041 (episode has B001-B040)"
+    ],
+    "repaired": true,
+    "errors_after_repair": [],
+    "raw_first": {
+      "promos": [
+        {
+          "title": "The Devil's Bargain",
+          "start_block": "B012",
+          "end_block": "B026",
+          "hook": "Catherine rests her hand firmly over Father Thomas's heart and demands the west territory's tax collection in exchange for his silence.",
+          "cliffanger": "Father Thomas clasps her hand at his neck and solemnly promises, 'For as long as it holds.'",
+          "why": "It establishes the villain's ruthless corruption and the high stakes of the political conspiracy immediately.",
+          "context_gap": "A viewer would not know that Catherine is the exiled noblewoman plotting revenge or that Father Thomas is a corrupt clergyman."
+        },
+        {
+          "title": "Scandal in the Shadows",
+          "start_block": "B029",
+          "end_block": "B041",
+          "hook": "Catherine pulls Father Thomas closer by the hair and whispers, 'Or perhaps discretion isn't the only thing you've developed a taste for.'",
+          "cliffanger": "Agnes stumbles back into the shadows of the hallway, horrified by the lethal secret she has uncovered.",
+          "why": "The clip combines a seductive threat with a sudden, shocking interruption that raises the stakes from political to personal danger.",
+          "context_gap": "A viewer would not know that Agnes is a servant or that she has just witnessed a treasonous affair."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B004",
+          "end_block": "B008",
+          "kind": "hook",
+          "description": "Catherine playfully teases Father Thomas about his stamina in his collar, while he retorts that a man in his collar shouldn't even be in the bed."
+        },
+        {
+          "start_block": "B012",
+          "end_block": "B015",
+          "kind": "reveal",
+          "description": "Father Thomas demands the west territory's tax collection routed through his office as the price for his silence."
+        },
+        {
+          "start_block": "B026",
+          "end_block": "B032",
+          "kind": "cliffanger",
+          "description": "Catherine and Father Thomas embrace passionately in the abandoned wing, lost in their forbidden entanglement."
+        },
+        {
+          "start_block": "B036",
+          "end_block": "B041",
+          "kind": "cliffanger",
+          "description": "Agnes peeks through the crack of the door and sees Catherine and the shirtless priest locked in an intimate embrace."
+        }
+      ]
+    },
+    "raw_repair": {
+      "promos": [
+        {
+          "title": "The Devil's Bargain",
+          "start_block": "B012",
+          "end_block": "B026",
+          "hook": "Catherine rests her hand firmly over Father Thomas's heart and demands the west territory's tax collection in exchange for his silence.",
+          "cliffanger": "Father Thomas clasps her hand at his neck and solemnly promises, 'For as long as it holds.'",
+          "why": "It establishes the villain's ruthless corruption and the high stakes of the political conspiracy immediately.",
+          "context_gap": "A viewer would not know that Catherine is the exiled noblewoman plotting revenge or that Father Thomas is a corrupt clergyman."
+        },
+        {
+          "title": "Scandal in the Shadows",
+          "start_block": "B029",
+          "end_block": "B040",
+          "hook": "Catherine pulls Father Thomas closer by the hair and whispers, 'Or perhaps discretion isn't the only thing you've developed a taste for.'",
+          "cliffanger": "Agnes stumbles back into the shadows of the hallway, horrified by the lethal secret she has uncovered.",
+          "why": "The clip combines a seductive threat with a sudden, shocking interruption that raises the stakes from political to personal danger.",
+          "context_gap": "A viewer would not know that Agnes is a servant or that she has just witnessed a treasonous affair."
+        }
+      ],
+      "moments": [
+        {
+          "start_block": "B004",
+          "end_block": "B008",
+          "kind": "hook",
+          "description": "Catherine playfully teases Father Thomas about his stamina in his collar, while he retorts that a man in his collar shouldn't even be in the bed."
+        },
+        {
+          "start_block": "B012",
+          "end_block": "B015",
+          "kind": "reveal",
+          "description": "Father Thomas demands the west territory's tax collection routed through his office as the price for his silence."
+        },
+        {
+          "start_block": "B026",
+          "end_block": "B032",
+          "kind": "cliffanger",
+          "description": "Catherine and Father Thomas embrace passionately in the abandoned wing, lost in their forbidden entanglement."
+        },
+        {
+          "start_block": "B036",
+          "end_block": "B040",
+          "kind": "cliffanger",
+          "description": "Agnes peeks through the crack of the door and sees Catherine and the shirtless priest locked in an intimate embrace."
+        }
+      ]
+    }
+  }
+]

@@ -42,7 +42,7 @@ Official run on the full input pack (50 episodes, 102.7 minutes of drama, 3,727 
 | Moments found | The tool's candidates contained the independent reviewer's favourite moment in **48 of 50 episodes** (keyword baseline: 41/50) |
 | Ranking quality (blind review) | Blind reviewers would post **8 of the top 10** and 70% of the top 30, but only 22% of the bottom 74 (tool score vs reviewer score: ρ = 0.53) |
 
-The ranked list itself quotes Kuku's confidential scripts, so it is not in this public repo. It is in the raw-outputs folder shared privately with the submission.
+The full ranked list and every raw output of this run are in [`outputs/full_run/`](outputs/full_run/): start with `promos.md` or `report.html`. Every model reply behind them is cached in [`.cache/llm/`](.cache/llm/), so running the same command on the same scripts replays the run from the cache in seconds instead of calling the model again.
 
 ---
 
@@ -243,7 +243,7 @@ python3 -m promo_finder models                         # provider's models, chea
 **Limits:** see "Where it picks badly" above. The free tier is slow (one request at a time). The judge is a small model and is noisy, so treat the output as a **shortlist for an editor**.
 
 **Safety and confidentiality**
-- The input pack, outputs, evaluation files, uploads and `.env` are **git-ignored**. The scripts are Kuku's confidential content, and the outputs quote them.
+- The input pack, evaluation files, uploads, other runs in `outputs/` and `.env` are **git-ignored**. The only run committed is the official one, `outputs/full_run/`, together with its model-reply cache `.cache/llm/`.
 - The web app binds to `127.0.0.1` by default.
 - Uploaded zips are treated as untrusted: only text files are extracted, paths are flattened (no `../` escapes), and sizes are capped.
 - The server's own API key is **never** sent to a provider URL typed into the UI. `PROMO_UI_REQUIRE_KEY=1` makes every user bring their own key when hosting.

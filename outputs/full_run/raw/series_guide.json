@@ -1,0 +1,98 @@
+{
+  "premise": "A betrayed noblewoman marries a mysterious scarred duke to escape her family's cruelty, only to face a deadly conspiracy that threatens to tear them apart.",
+  "genre": "Historical Romance, Revenge",
+  "characters": [
+    {
+      "name": "Juliana",
+      "labels": [
+        "LADY JULIANA",
+        "JULIANA"
+      ],
+      "who": "Betrayed noblewoman who marries a stranger for dignity"
+    },
+    {
+      "name": "Alexander",
+      "labels": [
+        "ALEXANDER",
+        "THE BEARDED STRANGER",
+        "MYSTERIOUS BEARDED MAN"
+      ],
+      "who": "Scarred, exiled duke seeking to reclaim his title and protect his wife"
+    },
+    {
+      "name": "Catherine",
+      "labels": [
+        "LADY CATHERINE",
+        "CATHERINE"
+      ],
+      "who": "Villainous noblewoman plotting to destroy the new duchess"
+    },
+    {
+      "name": "Rupert",
+      "labels": [
+        "RUPERT"
+      ],
+      "who": "Treacherous nobleman conspiring with Catherine to seize the ducal seat"
+    },
+    {
+      "name": "Dowager Duchess",
+      "labels": [
+        "DOWAGER DUCHESS",
+        "NOBLE MATRIARCH"
+      ],
+      "who": "Sickly matriarch whose poisoning sets the central conflict in motion"
+    },
+    {
+      "name": "Prudence",
+      "labels": [
+        "PRUDENCE"
+      ],
+      "who": "Loyal ally who helps Juliana infiltrate the manor"
+    },
+    {
+      "name": "Gerald",
+      "labels": [
+        "GERALD",
+        "THE FORMER GROOM"
+      ],
+      "who": "Juliana's cowardly ex-fiancé who abandoned her at the altar"
+    },
+    {
+      "name": "Clarissa",
+      "labels": [
+        "CLARISSA",
+        "LADY CLARISSA"
+      ],
+      "who": "Juliana's cruel sister who aided in her betrayal"
+    },
+    {
+      "name": "Father Thomas",
+      "labels": [
+        "FATHER THOMAS"
+      ],
+      "who": "Corrupt clergyman who aids Catherine's schemes"
+    },
+    {
+      "name": "Alexander's Mother",
+      "labels": [
+        "ALEXANDER'S MOTHER"
+      ],
+      "who": "Imprisoned matriarch who reveals the truth about Alexander's past"
+    },
+    {
+      "name": "The High Priest",
+      "labels": [
+        "HIGH PRIEST",
+        "THE PRIEST"
+      ],
+      "who": "Ecclesiastical authority who declares their marriage invalid"
+    },
+    {
+      "name": "Crown Official",
+      "labels": [
+        "CROWN OFFICIAL"
+      ],
+      "who": "Royal official who exposes the conspirators' treason"
+    }
+  ]
+}

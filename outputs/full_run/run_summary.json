@@ -1,0 +1,65 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "input_dir": "/Users/shreeyutm2005/Abhishek Kuku/input_pack/I Married a Broken Soldier. He was a Duke",
+  "episodes": 50,
+  "runtime_minutes": 102.7,
+  "mode": "llm",
+  "llm": {
+    "per_show_if_run_fresh": {
+      "calls": 209,
+      "prompt_tokens": 620479,
+      "completion_tokens": 67565,
+      "model_seconds": 6614.4,
+      "cost_usd": 0.0
+    },
+    "model": "zai-org/GLM-4.7-Flash",
+    "base_url": "https://platform.qubrid.com/v1",
+    "live_calls": 0,
+    "cache_hits": 209,
+    "failed_calls": 0,
+    "refusals": 0,
+    "sent_to_fallback": 0,
+    "fallback_model": null,
+    "fallback_stats": null,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "llm_seconds": 0.0,
+    "price_per_1M_in": 0.0,
+    "price_per_1M_out": 0.0,
+    "cost_usd": 0.0
+  },
+  "judge_llm": null,
+  "promos_ranked": 149,
+  "ranked_by_source": {
+    "single": 116,
+    "rules": 30,
+    "montage": 3
+  },
+  "top10_by_source": {
+    "single": 8,
+    "rules": 2
+  },
+  "near_duplicates_removed": 6,
+  "hook_recuts": null,
+  "mining": {
+    "episodes_mined": 50,
+    "promos_proposed": 142,
+    "moments_proposed": 193,
+    "lengths_fixed_by_code": 75,
+    "rule_breaks_first_try": 2,
+    "rule_breaks_after_repair": 0,
+    "episodes_needing_repair": 1,
+    "failed_episodes": []
+  },
+  "trailers": {
+    "requested": 4,
+    "errors_first_try": [
+      "- Trailer 1 \"Betrayal & Revenge\": total 19.0s, must be 20-60s (moment lengths: M003=5.9s, M009=4.1s, M018=9.0s)"
+    ],
+    "errors_after_repair": [
+      "- Trailer 1 \"Betrayal & Revenge\": total 19.0s, must be 20-60s (moment lengths: M003=5.9s, M009=4.1s, M018=9.0s)"
+    ]
+  },
+  "parse_warnings": {},
+  "wall_clock_seconds": 0.8
+}

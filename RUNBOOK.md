@@ -9,12 +9,12 @@ All commands run from the repo root on Python 3.9+, with no installs. `<SHOW>` m
 | Item | Status |
 |---|---|
 | Tool (CLI), web app, tests, README | ✅ done, in this repo |
-| Official free-model run on the full pack (`outputs/full_run`, 155 candidates → 149 ranked, $0) | ✅ done. Its original live log is kept as `raw/llm_calls_live_run.jsonl`; the reports were regenerated from cache with the final code (identical clips and ranking) |
+| Official free-model run on the full pack (`outputs/full_run`, 155 candidates → 149 ranked, $0) | ✅ done, and committed to this repo together with its model-reply cache (`.cache/llm/`). Its original live log is kept as `raw/llm_calls_live_run.jsonl`; the reports were regenerated from cache with the final code (identical clips and ranking) |
 | Paid-model comparison runs (Qwen3.5-Flash, DeepSeek-V4-Pro) and their blind reviews | ✅ done ($0.86 of a $4 test budget) |
 | Evaluation: independent picks, blind review of every candidate, judge stability | ✅ done (`eval/`, kept private) |
 | README numbers | ✅ filled |
 | 2-page solution PDF | ✅ built locally as `docs/solution.pdf` (git-ignored because it quotes the scripts). **Edit it into your own words** (step 9 to rebuild) |
-| Submission (Drive upload of `outputs/full_run` + `eval/`, form, optional video) | ⏳ you: see `docs/SUBMISSION_CHECKLIST.md` |
+| Submission (form; raw outputs = `outputs/full_run` in this repo; optional Drive upload of `eval/`; optional video) | ⏳ you: see `docs/SUBMISSION_CHECKLIST.md` |
 
 Re-running anything below is optional. Every step is reproducible with the commands given.
 
@@ -37,7 +37,7 @@ python3 -m promo_finder parse "<SHOW>"                        # format check: ep
 python3 -u -m promo_finder run "<SHOW>" --out outputs/full_run
 ```
 - Default model: `zai-org/GLM-4.7-Flash` on Qubrid ($0). The free tier allows **one request at a time**, so a 50-episode show takes **about 1.5–2.5 h**. Don't run two free-model jobs at once: they block each other (HTTP 429).
-- **It can be resumed.** Every model reply is cached in `.cache/llm/`. If it stops, run the same command again and finished calls come back instantly.
+- **It can be resumed.** Every model reply is cached in `.cache/llm/`. If it stops, run the same command again and finished calls come back instantly. The cache is committed, so a fresh clone replays the official run from it too (an API key must still be set).
 - To **regenerate the reports** later (after a code update) **without losing the original run log**:
   ```bash
   cp outputs/full_run/raw/llm_calls.jsonl  outputs/full_run/raw/llm_calls_live_run.jsonl
@@ -145,6 +145,6 @@ python3 -c "from pypdf import PdfReader; print(len(PdfReader('docs/solution.pdf'
 ## 10. Pushing updates
 
 ```bash
-git add -A && git status --short          # input_pack/, outputs/, eval/, uploads/, .env, docs/solution* must NOT appear
+git add -A && git status --short          # input_pack/, eval/, uploads/, .env, docs/solution* and outputs/ runs other than full_run/ must NOT appear
 git commit -m "…" && git push
 ```

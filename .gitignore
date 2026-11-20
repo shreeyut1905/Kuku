@@ -1,12 +1,16 @@
 # secrets
 .env
 
-# Kuku's confidential input pack and anything quoting it: share outputs privately (Drive), never publish
+# Kuku's input pack and the evaluation files stay out of git
 input_pack/
 *.zip
-outputs/
 eval/
-.cache/
+
+# runs and caches: only the official full-pack run and the model-reply cache are committed
+outputs/*
+!outputs/full_run/
+.cache/*
+!.cache/llm/
 
 # python
 __pycache__/
